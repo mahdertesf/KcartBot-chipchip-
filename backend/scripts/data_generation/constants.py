@@ -116,7 +116,7 @@ PRODUCTS_CATALOG = {
     "Watermelon": "watermelon",
     "ወተት": "milk",
     "Yogurt": "yogurt",
-    "ቅቤ": "kibe",
+    "ቅቤ": "butter",
     "Sweet Potatoes": "sweet_potatoes",
     "ዝንጅብል": "ginger"
 }
@@ -139,7 +139,7 @@ PRODUCT_ENHANCEMENTS = {
     "watermelon":     {"price": 15.0,  "peak_month": 4}, 
     "milk":           {"price": 85.0,  "peak_month": 8},  
     "yogurt":         {"price": 95.0,  "peak_month": 8},
-    "kibe":           {"price": 1200.0,"peak_month": 8},
+    "butter":         {"price": 1200.0,"peak_month": 8},
     "sweet_potatoes": {"price": 40.0,  "peak_month": 11},
     "ginger":         {"price": 180.0, "peak_month": 12}
 }
