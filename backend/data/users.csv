@@ -1,0 +1,371 @@
+user_id,name,phone_number,default_location,role,created_date
+66893853-55bb-4ffd-9cf9-1879259cd3e7,Desta,+251910526787,"Kobo, Amhara",customer,2025-08-11
+99fa0b59-5d09-48a0-8a79-069aed44c11f,ፍቅሬ,+251980323779,"Adama, Oromia",customer,2025-08-28
+237e6d65-2a1b-4bba-96c9-f162c154c0c6,Alebel,+251991172871,"Harar, Harari",customer,2024-10-28
+114ef826-2971-4d29-8731-35163a3c6390,ናታን,+251958261694,"Hawassa, Sidama",customer,2025-09-25
+a4249970-3fd6-4352-93a0-c061dc7e6ac6,ልዑል,+251953676826,"Sidama, Sidama",customer,2025-04-08
+e0214e94-56ff-4984-bbce-fd42dc8a4b33,Adonay,+251991493065,"Kobo, Amhara",customer,2025-06-03
+77180b21-32fc-4550-8940-acde1dbcba3f,ትንሳኤ,+251938696210,"Gondar, Amhara",customer,2025-02-04
+d0f44764-4fca-427c-9796-356177cc4dea,አበበ,+251970548015,"Harar, Harari",customer,2025-01-04
+b9154752-f0a3-4f1a-a514-7dd9e6fd8e0c,Yabsira,+251956989469,"Mekele, Tigray",customer,2025-09-07
+620c6e31-ce7d-4812-b7dd-5a68246d95c0,ምህረት,+251991130742,"Harar, Harari",customer,2024-10-28
+532be7f9-9f66-47c4-853d-7126343f4756,ቃልበሳ,+251959154425,"Asella, Oromia",customer,2025-03-28
+6b672daa-f148-4c87-b6f4-9a1eb259c8bd,Menbere,+251971426826,"Hawassa, Sidama",customer,2024-12-05
+63f62e5b-a13b-43ae-abba-19462f077ba5,ራህዋ,+251913247743,"Hawassa, Sidama",customer,2025-08-10
+e332beb4-a277-49ba-828b-c2ac762eca59,Israel,+251935281773,"Asella, Oromia",customer,2025-04-25
+09175a6b-d171-464b-b49e-98970b788480,ይсሀቅ,+251966499881,"Adama, Oromia",customer,2025-08-12
+a6edfa98-b92c-4275-8e6f-daf265e02e70,ነቢል,+251950226080,"Mekele, Tigray",customer,2024-12-31
+27b5018e-fe40-496e-a3de-982e4dad23ef,Asrat,+251965624487,"Hawassa, Sidama",customer,2025-01-06
+d954a013-b197-4e52-b08e-af557283ab20,Berhane,+251979664028,"Hawassa, Sidama",customer,2024-12-12
+a809e46f-6658-4b76-92ca-f230679a1c60,ኮከብ,+251956898906,"Sidama, Sidama",customer,2025-04-21
+98b89b94-9535-4296-9c58-5ed919bd473d,አለም,+251950454334,"Bahir Dar, Amhara",customer,2024-12-22
+c219f897-e7cc-492e-90a2-3db28c089d51,Meskere,+251955591697,"Hawassa, Sidama",customer,2025-07-05
+c9f4b013-a74c-456f-a3c3-a2e61664990b,ሄኖክ,+251988872434,"Dessie, Amhara",customer,2025-02-04
+74844b0d-d8da-4840-8fce-76ea56614123,ኤደን,+251910233518,"Dessie, Amhara",customer,2025-06-25
+2ddc076a-52cf-45f4-bea7-de34b431920b,ኦሊ,+251933452432,"Asella, Oromia",customer,2025-10-11
+18650267-6c2c-4b9c-a9f6-c9d2e733b12a,Kahsay,+251918182016,"Asella, Oromia",customer,2025-08-03
+599a9c00-7818-4b6c-823a-8b3a6f4042b0,Mati,+251933632642,"Dessie, Amhara",customer,2025-07-21
+ffc35e95-28f5-438c-ae6f-6b0bf5e5ce1f,ሃበን,+251927318026,"Dessie, Amhara",customer,2024-11-11
+5ad6a9b5-a670-4d3f-b206-9a1b3d97aaff,Hamelmal,+251971429102,"Dire Dawa, Dire Dawa",customer,2025-05-29
+e15b665a-5a23-4824-bdcc-d4c9919e28c5,Sisay,+251957102166,"Harar, Harari",customer,2025-03-09
+5e041323-25ef-4520-901a-7e01e523eb1e,ታጠቅ,+251967370401,"Meki, Oromia",customer,2025-04-19
+4ab4b943-2f00-444f-80fd-e16accc7623e,Fasil,+251994882825,"Shashemene, Oromia",customer,2025-04-01
+8361741f-aba8-4433-a682-c845f1f408c2,Tariku,+251989435073,"Kobo, Amhara",customer,2025-07-15
+54b71fc3-796a-4c20-8909-15bf9c158db7,Natan,+251922502430,"Dessie, Amhara",customer,2025-01-15
+fd975ae0-9557-4add-a5e7-4f22c958e3c6,Merih,+251991335993,"Jimma, Oromia",customer,2024-12-31
+e122065a-14c5-4dd2-bad3-b24b18168853,ለይላ,+251993654054,"Dire Dawa, Dire Dawa",customer,2024-12-11
+349300f5-4608-4897-bdfd-d2a992536869,ቃልኪዳን,+251996186965,"Bahir Dar, Amhara",customer,2025-01-26
+465bf077-3e24-4629-8c1b-792633c490f1,Natnael,+251948336503,"Shashemene, Oromia",customer,2024-11-18
+85fe614c-3106-460e-9395-816858b238ce,Wub,+251979227105,"Kobo, Amhara",customer,2025-02-21
+d2feac64-ed20-4c84-aadd-a579b88e995f,በላቸው,+251964922698,"Dire Dawa, Dire Dawa",customer,2025-06-24
+7e28d2a4-45f3-4736-aa26-bd7a2a8d1a2a,Nigist,+251964684341,"Dessie, Amhara",customer,2025-05-15
+4a4eeb8b-e55b-40b7-90fa-810044633094,Yishak,+251913691536,"Meki, Oromia",customer,2025-06-10
+d5626072-b3ca-4b9c-92b4-4ea72f0ecc66,Hirut,+251915942058,"Arba Minch, SNNPR",customer,2024-10-15
+9d518e4e-fc88-4d85-b346-c313de576bde,Amha,+251922786585,"Addis Ababa, Addis Ababa",customer,2024-12-16
+e8b9b3dd-394a-4d9e-b91c-5a4b8ee39db0,ዘበን,+251932982989,"Dessie, Amhara",customer,2024-10-28
+9c405736-d019-4b6e-8623-72a012ffcf30,አማረች,+251980584786,"Jimma, Oromia",customer,2025-03-30
+bf154c81-519d-4032-aeb7-0e6fe953c5ae,Rahwa,+251968900692,"Mekele, Tigray",customer,2025-08-17
+b729b45e-d6cb-4e16-aaa6-3941b35f3e21,ቤኒያም,+251918067988,"Adama, Oromia",customer,2025-02-14
+32c9dbe3-99d0-49f1-9456-5bf1c85fb83c,Hirut,+251957866949,"Mekele, Tigray",customer,2025-09-21
+845750fe-80f8-405d-83f8-a875752f7dac,በላቸው,+251980128518,"Sidama, Sidama",customer,2025-08-09
+8f6370b1-5bbf-4d53-bd51-c951ad2f9e42,Alebel,+251938742356,"Asella, Oromia",customer,2025-08-22
+cadedec0-3f3b-46b2-af4b-d7369b9f8648,Meti,+251981702256,"Shashemene, Oromia",customer,2025-08-01
+59f5b0b9-6b9b-43f6-876a-b8712c2456ad,Eleni,+251949970532,"Hawassa, Sidama",customer,2024-11-17
+5f95fc61-cb06-4c2a-940c-e3283a8814c0,ትንሳኤ,+251934618453,"Dire Dawa, Dire Dawa",customer,2025-03-24
+f57f0ee1-3aef-489d-bbaa-ce021980f0c0,ኤልሳ,+251955988519,"Asella, Oromia",customer,2025-09-20
+235d37c1-7cf9-453b-a557-f61732ba9c1e,ባንቹ,+251933921361,"Adama, Oromia",customer,2024-11-15
+977b2db1-0483-45fc-b83a-595cca0c6dbf,Fana,+251947976729,"Mekele, Tigray",customer,2025-07-13
+29f530bd-92d8-4ca7-9332-52203439f549,Asrat,+251957203348,"Hawassa, Sidama",customer,2025-09-12
+7c9fc630-90c1-405f-b3cf-d4a4235d42df,ቅዱስ,+251997008455,"Bahir Dar, Amhara",customer,2025-09-27
+b4966508-8aa8-4832-9448-c5c9faf9e23f,Girma,+251924370840,"Kobo, Amhara",customer,2025-03-17
+be2c9e51-f3ec-47b7-9d3b-4d4e3ecdba09,Genet,+251944378416,"Gondar, Amhara",customer,2024-12-15
+5fe3a3ce-60a5-4a0b-b74d-ac5f9a839e1d,Yalew,+251917979670,"Bahir Dar, Amhara",customer,2025-07-14
+cc09b6fd-0844-4ce5-a989-17cca1903051,Eshetu,+251937752330,"Kobo, Amhara",customer,2024-10-25
+db6511c0-0de3-4d02-8399-655724813ebb,Bona,+251946999790,"Asella, Oromia",customer,2025-07-11
+ff44b391-28c2-4454-b0d5-cfe8a48a598f,Firaol,+251919772836,"Addis Ababa, Addis Ababa",customer,2025-07-28
+1d6eca78-c400-4a75-85e6-31f9a587c2c1,Yerosan,+251956409166,"Harar, Harari",customer,2024-12-16
+975b2e12-fbc3-4bf6-b1bc-5847133c4705,ፋሲካ,+251960635397,"Shashemene, Oromia",customer,2024-12-06
+ac2a9f8e-f4a2-4438-815e-86eeddebd6ec,Eleni,+251919232213,"Mekele, Tigray",customer,2025-02-27
+4ed995bb-16a9-4c47-93cf-908ba017b8f4,ሀሴት,+251923971558,"Arba Minch, SNNPR",customer,2025-02-16
+33fbfd59-414e-4342-8f24-9059cd060aab,ሃበን,+251966620791,"Hawassa, Sidama",customer,2025-07-21
+6efb8907-2052-4151-adfc-0edefa47489f,Mulu,+251977570384,"Arba Minch, SNNPR",customer,2024-12-06
+8fdc791e-9b33-4a12-80c0-1eab02b7ce26,Hamelmal,+251911150111,"Bahir Dar, Amhara",customer,2025-02-18
+309d174e-d3a6-4d88-93f2-14f2c5b0f3e5,Gadise,+251939088480,"Addis Ababa, Addis Ababa",customer,2025-02-21
+7439a5a8-9f6b-4729-afdd-46e081463bd2,ኦሊ,+251960649070,"Adama, Oromia",customer,2024-12-23
+c934e05c-4592-47e3-88b3-b8e09a4712b5,ተሰማ,+251954062464,"Asella, Oromia",customer,2025-01-05
+01c516de-720e-4be7-a1bf-93f7d3a14fbb,Yemane,+251946508990,"Hawassa, Sidama",customer,2025-04-25
+9fb7448f-abfa-43e9-bed6-4e82a0c63ecf,ሰብለ,+251984268388,"Bahir Dar, Amhara",customer,2025-09-11
+6d0fb46e-e977-476e-aa00-a9c1d4592488,አዲስአለም,+251912892047,"Gondar, Amhara",customer,2025-05-07
+c392960e-d58a-4cd8-82c8-c83ff1cc849f,Senait,+251920437260,"Shashemene, Oromia",customer,2025-06-20
+4eceb3cf-fe52-435e-8b2b-2980ee3ca403,Semegn,+251961395101,"Dessie, Amhara",customer,2024-10-24
+174cce4f-d985-4342-8cbf-5b1752afb302,ሰይፉ,+251965932431,"Shashemene, Oromia",customer,2025-05-17
+4fc76349-9818-4c5c-8f87-4e5b7df1008f,Amanuel,+251986560890,"Jimma, Oromia",customer,2025-04-21
+754cb846-f8b2-44ee-a24d-72d280733d83,መሳይ,+251951070136,"Mekele, Tigray",customer,2025-01-12
+41a60909-7458-46bb-9670-af3e41326299,ቃልበሳ,+251977390506,"Adama, Oromia",customer,2025-06-30
+a42d7939-dfb1-4e3b-928e-ea035985778a,ነቢያት,+251996942461,"Hawassa, Sidama",customer,2025-05-16
+834bca4c-e8c2-4a23-a189-7857fe59d32e,ኤባ,+251965503997,"Addis Ababa, Addis Ababa",customer,2025-07-30
+c752f09f-7f95-4b1c-9207-21031357f36a,አረጋሽ,+251986756570,"Harar, Harari",customer,2025-04-15
+ceb2e8d4-42f7-439b-8573-f8a5b0ac3f4d,Sifan,+251935373470,"Mekele, Tigray",customer,2025-10-10
+8cdf4278-42c3-4d16-bf2a-73c6ed7c62b2,Heran,+251950946396,"Adama, Oromia",customer,2025-03-20
+ca026306-8eed-4262-8e49-4a739ec9c2ff,ዘካሪያስ,+251981758899,"Kobo, Amhara",customer,2024-10-29
+8e8b2618-bb5f-49e9-ad93-49e3de96d24b,ሲዩም,+251990952414,"Meki, Oromia",customer,2025-06-07
+ba18c778-924a-4393-acef-da9e61e93b15,Kassa,+251984738366,"Arba Minch, SNNPR",customer,2025-02-09
+b17f2941-529d-465a-9753-3bcf06c219c2,ኮከብ,+251929729867,"Harar, Harari",customer,2025-09-08
+a141d9cf-de05-4829-8ee1-cef46477c195,አስናቀ,+251926980933,"Dire Dawa, Dire Dawa",customer,2025-03-06
+7589014e-64f1-49b8-b2bf-6eb9cd04e963,Bekele,+251923616453,"Arba Minch, SNNPR",customer,2025-04-03
+acfb7e72-74c0-4720-a35f-185a96690226,Habtamu,+251938040434,"Meki, Oromia",customer,2025-07-03
+3049aeb5-31c5-44e5-9a4f-3ea6de939c3e,Ruth,+251938582310,"Mekele, Tigray",customer,2025-08-25
+87dc7f81-0f57-4efa-8cd7-de9282861e88,Abigail,+251927317460,"Asella, Oromia",customer,2024-10-24
+7d20fa20-4536-4d8c-86d0-3b2890a2ae38,ሉሊት,+251985460141,"Bahir Dar, Amhara",customer,2025-06-29
+1439fd7c-80b8-4964-8f8d-101334707d72,Adonay,+251953130963,"Arba Minch, SNNPR",customer,2025-02-13
+a6259f72-125d-4ef6-a093-ec04ea0cebbe,Alem,+251935487370,"Shashemene, Oromia",customer,2025-01-12
+848f99f3-daf9-45cf-811e-70d2fe129153,Kassa,+251988935431,"Harar, Harari",customer,2025-04-25
+27acdfe1-3a7f-4c77-8767-32ea1aa55fdb,Makeda,+251949952069,"Harar, Harari",customer,2025-07-17
+7a6756a2-0a57-4d21-85e9-5c413fb5da6d,ዛህራ,+251936467328,"Hawassa, Sidama",customer,2025-07-05
+0e3ea927-6610-4470-aa6a-2ab93e1ecab6,ቃልበሳ,+251973741780,"Hawassa, Sidama",customer,2025-05-21
+08a07949-3ca0-4575-8c9d-8ca74f4077eb,Mengesha,+251988649432,"Arba Minch, SNNPR",customer,2024-12-21
+62d1cfab-4594-4816-b336-bcd320522661,Kassaye,+251955373942,"Mekele, Tigray",customer,2025-03-27
+cb252b96-67de-4139-91a9-8a12604b9e1f,Endalk,+251915108860,"Jimma, Oromia",customer,2025-10-09
+5120dddb-1e61-4847-aed9-6ee2f9c96956,ደመቀ,+251972243110,"Shashemene, Oromia",customer,2024-10-31
+04ec2336-a2f2-4486-b549-e210957e4d54,Adonay,+251915051520,"Bahir Dar, Amhara",customer,2025-03-11
+7eb2b32a-5b3f-4bfb-a502-d9b6334358df,Tesfahun,+251964958443,"Harar, Harari",customer,2025-06-10
+1018372a-ec30-42f8-9df9-e75d42151298,Melkam,+251954465075,"Adama, Oromia",customer,2024-12-27
+965327ef-b049-4932-a032-c5b8ed903729,ሲፋን,+251919688235,"Shashemene, Oromia",customer,2025-10-03
+65e946ce-a73c-4d42-82a8-e6a1906fdda5,ስመኝ,+251953941214,"Mekele, Tigray",customer,2025-02-19
+07f374c1-2b25-4f37-87ae-5a0ad137e9e3,ብስራት,+251917495308,"Hawassa, Sidama",customer,2024-12-29
+15c0796e-a1f8-4ef9-afee-b18bf53d9305,Zufan,+251976610806,"Meki, Oromia",customer,2025-02-03
+386d0b47-be85-4ed6-b941-1cb8ae2a877e,Tefera,+251969025772,"Hawassa, Sidama",customer,2025-08-28
+eddbd8fc-6800-478e-838e-61af1fd7151a,Freweyni,+251982900435,"Gondar, Amhara",customer,2025-04-14
+7097ebe2-3d15-44f2-b859-e3f554d02f15,Yalem,+251911974200,"Meki, Oromia",customer,2025-01-28
+e93d3f9e-a9de-4044-921d-9a1c8cdd40cf,Biftu,+251913890628,"Kobo, Amhara",customer,2025-03-25
+e48e4f16-3d8f-48a2-9c1c-edb79aefdc77,አፈወርቅ,+251917199626,"Bahir Dar, Amhara",customer,2025-03-20
+7a51ac0e-35d6-4fec-9d09-a9c3efafd91a,ስሂን,+251965362132,"Meki, Oromia",customer,2025-04-24
+7f7c2a99-5612-48f0-9c16-e27680b78f73,Henos,+251930949646,"Asella, Oromia",customer,2025-09-01
+cc9191b2-4ae6-402d-9232-f46def8e2a08,ኒሻን,+251967908242,"Arba Minch, SNNPR",customer,2025-03-09
+bc75e9d9-e7f8-459f-9a1d-fa1a3d60ad95,ሰለሞን,+251987865470,"Meki, Oromia",customer,2025-07-11
+5e51025c-fdf4-499c-a0e2-0b9e3c8f2157,Samson,+251917974870,"Shashemene, Oromia",customer,2025-05-11
+a77622e9-0739-4812-8690-d41e81cdab0f,አምሳል,+251993865328,"Mekele, Tigray",customer,2025-08-09
+8460e4a1-4319-4dee-83f8-bb4e0ce0a88a,ሽፈራው,+251947223828,"Gondar, Amhara",customer,2024-12-25
+7db64724-04a3-4737-933f-aa02d2d95669,Meskere,+251936261813,"Meki, Oromia",customer,2025-07-14
+613f2841-16ed-4334-9253-a0844fdf2ba4,Adonay,+251935408241,"Dessie, Amhara",customer,2025-09-08
+5d0de01d-abdb-4ceb-a13b-22f8bdd28114,ድንቅነሽ,+251912296214,"Jimma, Oromia",customer,2025-04-12
+4cb7e279-b706-467c-aa2c-e64f0651d052,ሳምራዊት,+251987407577,"Jimma, Oromia",customer,2025-07-17
+07844be3-86b3-4efd-b2d8-f86f140b5362,ገነት,+251972768834,"Jimma, Oromia",customer,2025-04-24
+fa3eb0d8-821a-44ab-a36d-ea181b0bb908,ቃልኪዳን,+251933345950,"Kobo, Amhara",customer,2025-01-08
+417b831a-4638-4645-a01b-d0088fe68322,ነፃነት,+251944196849,"Jimma, Oromia",customer,2025-08-14
+5dac0219-92e0-41fe-98ed-772f925deed8,መንበረ,+251976013662,"Hawassa, Sidama",customer,2024-11-11
+6d36bea3-af08-4ac3-9677-edf34e6c9546,Mengesha,+251918065455,"Shashemene, Oromia",customer,2025-06-05
+6e61f3ea-c89c-4fd3-bd47-8cee40ceb0c3,አቤኔዘር,+251938368221,"Arba Minch, SNNPR",customer,2025-02-27
+d3ad4dad-7930-477e-b6fd-2e9c5a29884d,Fekadu,+251980328246,"Mekele, Tigray",customer,2025-04-27
+e4ec180c-01a4-49eb-9c55-694f92a002b4,Hadush,+251997197727,"Bahir Dar, Amhara",customer,2025-05-11
+7c8899f3-f6f8-4527-96da-7c8cb1b86038,ያለም,+251955240944,"Bahir Dar, Amhara",customer,2024-12-12
+3fc816c5-69a1-4889-87ab-a402a5bb1e78,Yerosan,+251987000423,"Dire Dawa, Dire Dawa",customer,2025-03-23
+6e20d200-dcff-44d9-ac28-b946f18297ad,አክሊሉ,+251961810506,"Bahir Dar, Amhara",customer,2025-06-22
+429ffdf2-ac43-42a1-9b59-634a5f1b9cc8,Zahra,+251933814554,"Harar, Harari",customer,2025-01-03
+43a71816-5e04-4dde-91a9-65bbfc745a6c,ዬሮሳን,+251941841193,"Shashemene, Oromia",customer,2024-12-01
+56f0ad71-041a-4b19-a6eb-db80f8e98fde,Dibaba,+251980491005,"Harar, Harari",customer,2025-01-19
+2d3b49b4-3c63-41a0-8eec-3eea35d19f62,Zemzem,+251923535248,"Mekele, Tigray",customer,2025-07-10
+9f7cde40-1359-4dce-99ab-470daa6838ae,Zufan,+251935843046,"Harar, Harari",customer,2025-02-14
+4f5323bb-b81d-47db-9bf7-2bb62eea67e1,Wagaye,+251980487725,"Dessie, Amhara",customer,2025-05-23
+0ce9baed-0295-4e0f-b16c-011c973a3259,Ramla,+251925848702,"Hawassa, Sidama",customer,2025-04-03
+b141c903-cf84-42d5-ab66-e940dc66561f,Kaleab,+251924758634,"Asella, Oromia",customer,2024-12-23
+09a33d7c-c14a-4226-9e0e-c70e49927a6d,ቤተልሔም,+251924712537,"Gondar, Amhara",customer,2025-09-20
+2740a332-25e4-4a27-b739-b0569a888953,Shiferaw,+251968744182,"Shashemene, Oromia",customer,2025-07-25
+c56c07c2-a37e-4e23-9306-83e1999d1121,Moges,+251923331440,"Harar, Harari",customer,2024-11-07
+5f35e191-c967-40e2-8f5e-44c32743f475,Edom,+251994871397,"Shashemene, Oromia",customer,2025-01-31
+37b5aeb1-b10e-413e-86f4-05e1452d8ac1,ሳምሶን,+251980628728,"Bahir Dar, Amhara",customer,2024-11-15
+d96d85b9-39dc-4955-8051-7ec4b1ff9642,Habte,+251931687621,"Addis Ababa, Addis Ababa",customer,2025-08-20
+e4d1b4e9-2e70-4e9b-ad70-20ec19e728cc,ይትባረክ,+251926711315,"Hawassa, Sidama",customer,2024-12-23
+12d7f28c-e8fb-4709-af7a-eb0ac9bfd10b,Elias,+251946121773,"Jimma, Oromia",customer,2025-08-22
+7945ee2f-5156-4276-801e-8e377b2fdf12,Aklile,+251935121612,"Shashemene, Oromia",customer,2025-03-01
+a71615c4-c930-44e5-8b37-33d5e66b5fcd,Selam,+251990416748,"Sidama, Sidama",customer,2025-07-08
+b5039d80-469a-4a0d-b6d2-2cad6c50df30,Kefyalew,+251971788914,"Shashemene, Oromia",customer,2025-04-25
+1a08420f-d95a-4df5-91a6-e18e3d8a8534,ደሃብ,+251926364212,"Hawassa, Sidama",customer,2025-07-25
+7449d7ac-1681-4e13-9ad4-22baa7f8151b,Nebil,+251958207755,"Addis Ababa, Addis Ababa",customer,2024-11-27
+3edf8a1d-3bc8-41f5-b84f-b18b6bcd0b97,Israel,+251978218309,"Sidama, Sidama",customer,2024-10-22
+2aa8feea-98b4-4107-a92a-857ca46a09e2,ባንቹ,+251966604399,"Harar, Harari",customer,2025-01-26
+ed3dd03b-5e4e-4dcd-b85d-5715cf4369c6,Kibret,+251911136568,"Hawassa, Sidama",customer,2025-04-19
+d40af254-c8a3-4b99-b491-109ea74032a1,ለማ,+251940357807,"Shashemene, Oromia",customer,2024-10-22
+8ac55a50-b64a-4744-9a6b-dfa0358b92db,Tefera,+251915496621,"Mekele, Tigray",customer,2025-05-14
+4443b950-ffce-4200-a513-3feefc75b9fb,Kidist,+251951130640,"Bahir Dar, Amhara",customer,2025-08-30
+74657800-2f68-4f3e-a8d5-12827e89001a,ተሚማ,+251919878768,"Gondar, Amhara",customer,2025-04-25
+63c84105-982f-43ea-a61c-1b364fa109dd,Bahiru,+251978773139,"Jimma, Oromia",customer,2025-03-05
+15ed0edc-10d0-45cd-8741-ae31e40a559c,መዓዛ,+251923623340,"Asella, Oromia",customer,2025-06-16
+eb08839a-5d07-4768-b3b7-7237bdd562cf,Abenezer,+251990661202,"Harar, Harari",customer,2025-03-13
+e250dc78-7aff-46ab-aee8-f26f0a4b6345,Samri,+251952585086,"Hawassa, Sidama",customer,2025-05-11
+e64688e2-ab5e-4bc6-b4f8-a483a85dad40,ፍስሃ,+251997084134,"Arba Minch, SNNPR",customer,2025-09-21
+c49ce378-815b-4fba-b6da-5f668313a568,Kassa,+251953716713,"Bahir Dar, Amhara",customer,2025-02-16
+c6a5d017-9235-468a-853b-52212d6147f8,አሰፋ,+251932750400,"Gondar, Amhara",customer,2025-02-26
+0123966e-3df1-4585-ab4c-73cfc3b9d7ef,ዘውዴ,+251999467398,"Shashemene, Oromia",customer,2024-11-28
+27a89d65-343d-4931-ad57-757703c01b17,Berhanu,+251967014760,"Gondar, Amhara",customer,2024-11-03
+13f1492d-c9bf-4c61-9935-92d25c639eb8,ጫልችሳ,+251975765630,"Harar, Harari",customer,2025-07-21
+96045620-4a3e-4dea-99c8-7d215b9aa582,Akal,+251971114053,"Jimma, Oromia",customer,2025-08-19
+ab24cc53-1fc8-4c2a-af7f-b842279015e4,Belainesh,+251921705520,"Arba Minch, SNNPR",customer,2025-07-17
+62664cd4-234a-4d35-aac1-f80f71e73ad0,ሳምሪ,+251973852457,"Adama, Oromia",customer,2024-10-25
+d3003039-c00a-4474-9eba-051d4f1bb30d,ስመኝ,+251944360895,"Meki, Oromia",customer,2025-07-07
+b0240bdb-e6bb-46de-89e1-6dcbc8110dd2,ወንድሙ,+251951724217,"Adama, Oromia",customer,2025-03-08
+12990dec-2c5a-4361-9db5-943c346b4fec,ካሳ,+251925728112,"Harar, Harari",customer,2025-02-09
+196dbf90-ee5a-4da8-add0-35626d165147,ጥሩ,+251987326311,"Shashemene, Oromia",customer,2025-03-01
+cde27f77-0712-4289-8bbe-e717e7c8241e,Letebirhan,+251938615398,"Harar, Harari",customer,2025-05-23
+eaeccd96-07f8-4090-b12c-8173f971890d,አሸናፊ,+251989372444,"Kobo, Amhara",customer,2025-05-21
+e328e3d0-34cc-4c46-b3c1-d199102658bf,Tekle,+251978247138,"Sidama, Sidama",customer,2025-01-19
+8998fab4-38ec-4b8f-9c4d-b57df261c901,Ayantu,+251942715809,"Sidama, Sidama",customer,2025-06-06
+ae9c231d-aaf3-4186-8c9b-524c7a5da01a,መረማ,+251981841004,"Jimma, Oromia",customer,2025-10-01
+322de4be-f159-49da-afa4-50d018d9db32,Kaleab,+251930739532,"Harar, Harari",customer,2025-05-28
+3676f140-6121-43d9-9103-6a2e968c500c,ሲዩም,+251916949881,"Adama, Oromia",customer,2024-11-02
+8847bd8d-88ff-4f4d-b63f-193353ef045e,Heran,+251939791020,"Adama, Oromia",customer,2025-07-03
+ed1d3773-f610-4556-a240-5a11c8e2629b,Alem-Tsehay,+251910677981,"Bahir Dar, Amhara",customer,2025-05-01
+60e08422-398a-473c-8afa-7be1f5f03630,Tsega,+251932673485,"Mekele, Tigray",customer,2025-04-14
+3e80313e-d298-4234-bb44-66b4de84b655,የነነሽ,+251987414619,"Jimma, Oromia",customer,2024-11-10
+19100033-2265-4d60-a223-4bca822fd573,Hagos,+251940681800,"Shashemene, Oromia",customer,2025-05-27
+2eef5a21-4d6f-4adc-9d5e-436e1e8a96d6,Muluken,+251937691117,"Arba Minch, SNNPR",customer,2025-04-23
+f4a5b95d-1e9b-4e91-9841-457613f3d9f5,ባህሩ,+251932413602,"Dire Dawa, Dire Dawa",customer,2025-09-26
+5e80262b-b8eb-4581-b776-167c2140ab7d,ባንቹ,+251975854838,"Bahir Dar, Amhara",customer,2025-04-24
+17648ec0-5df4-40a6-9d28-20b7886f9204,Maza,+251925658737,"Meki, Oromia",customer,2025-02-17
+7c0cd847-9d02-409a-b590-0e966badf7c9,አምሃ,+251927293620,"Gondar, Amhara",customer,2025-02-13
+e24fa6ed-88e3-4c20-80b8-d9004fc70403,ካሌብ,+251911161736,"Dire Dawa, Dire Dawa",customer,2025-04-17
+1f63d0a1-594c-4226-8fe0-b6cc01e59c43,Jalane,+251951095479,"Asella, Oromia",customer,2025-02-02
+9507fc59-7cde-438a-8cb1-34b9201526f5,Kassa,+251953328607,"Adama, Oromia",customer,2024-11-15
+b3ded84f-36b8-43c0-86f2-17a45cd83f36,Gideon,+251928451841,"Hawassa, Sidama",customer,2025-09-04
+e838dbf1-fd12-486e-9d1c-19c6e8563a67,ጫልቱ,+251915601714,"Meki, Oromia",customer,2025-03-27
+546a7613-30c6-4efb-9c97-162bbb304e7c,Bizu,+251961902524,"Meki, Oromia",customer,2025-05-07
+7cc1837d-7546-4caa-a5b7-db2e712c9d54,ሳምሪ,+251913745262,"Gondar, Amhara",customer,2024-10-22
+94f512e1-a2f4-43bf-a210-10998612a4da,ማዛ,+251951848334,"Dessie, Amhara",customer,2024-11-26
+9fba56bc-b02f-43ce-8439-73a1bf9dc50d,ፍቅር,+251914799121,"Sidama, Sidama",customer,2025-10-07
+05836743-7c1c-4b87-bea5-aa1adf4658fe,ናታን,+251971320351,"Bahir Dar, Amhara",customer,2025-05-31
+f238f1d8-ddf0-4df3-854c-886a5ae4721f,ራህዋ,+251937724528,"Harar, Harari",customer,2025-08-02
+c9255017-e4cd-49b1-a67a-b3c663237a3d,Chalchisa,+251927199762,"Gondar, Amhara",customer,2025-09-19
+926a8e5f-33f7-44e3-962e-e714583ba9b5,ረድኤት,+251976552938,"Jimma, Oromia",customer,2025-10-02
+63665979-137e-4463-a02f-4cd6976a54c9,ሀሴት,+251927274141,"Adama, Oromia",customer,2025-03-22
+18d07c25-0c2e-4553-83d3-d996bff5a680,Workneh,+251946934366,"Asella, Oromia",customer,2025-03-27
+08696a7a-de77-48cd-8e99-c1f1eaeb542f,Bizu,+251960715236,"Asella, Oromia",customer,2025-07-23
+714be946-6d2b-4927-9549-d13094212c53,Hiwot,+251925125244,"Dire Dawa, Dire Dawa",customer,2025-02-17
+fcf02879-604f-4361-b288-0a316c932d21,መስፍን,+251991988409,"Asella, Oromia",customer,2024-12-12
+d4fcb048-dedb-407d-9a84-7a3dd0aacae7,Ramla,+251935098288,"Dire Dawa, Dire Dawa",customer,2024-12-27
+34878c73-c1aa-4a5b-8350-d28d0bba2dd6,Feleke,+251948541039,"Meki, Oromia",customer,2024-12-02
+55dad781-a2c1-4d33-938d-b33296374f46,Aster,+251933964906,"Kobo, Amhara",customer,2025-01-07
+0c75130f-fe46-42aa-bfd7-b1c721e59089,Natnael,+251942304034,"Adama, Oromia",customer,2025-07-30
+7959a99e-7d0d-4e14-892d-bfd9dcd43d16,ኤደን,+251921390085,"Dessie, Amhara",customer,2025-06-18
+42bed125-8d7a-4e1b-a38b-a9216f4fa47e,ፋሲካ,+251984716784,"Shashemene, Oromia",customer,2025-04-23
+e6ffab5e-3a13-4ebc-8156-5089513c4eba,Chuchu,+251929192155,"Meki, Oromia",customer,2025-08-13
+b57725f9-25d9-4347-a6cb-cff86529ed0b,Hanna,+251944332646,"Hawassa, Sidama",customer,2025-09-30
+74624627-c586-40ab-9e98-80e3b8bfe476,ቦና,+251923821325,"Sidama, Sidama",customer,2025-03-10
+5dc111ca-9f91-40fb-be26-4b1f7ed76985,ኦሊ,+251982099776,"Asella, Oromia",customer,2025-02-04
+4530f285-6877-4d79-b3eb-656175b4e1fe,ዙፋን,+251929069484,"Gondar, Amhara",customer,2024-11-18
+0c37b182-9a63-4db7-9721-467d353bd786,እስከዳር,+251983619004,"Adama, Oromia",customer,2025-06-11
+203789e9-e407-47f6-919d-407cd525a57c,Nigatu,+251976430185,"Jimma, Oromia",customer,2024-12-11
+1ec17891-827b-42c2-87a2-4bb8e95d38f5,ኢዛና,+251935190908,"Meki, Oromia",customer,2024-12-05
+e9c93faf-a395-4cf4-acaf-05dc83a8dfb3,አማረ,+251915089474,"Gondar, Amhara",customer,2025-07-15
+bbfa8f4f-e2ff-4d3a-9e46-4fe4cd0a0664,አማረች,+251914432131,"Bahir Dar, Amhara",customer,2024-11-01
+6e1dd827-f2db-4489-85ae-d5fd9753ec4b,እመቤት,+251912863416,"Shashemene, Oromia",customer,2025-01-16
+84820cb6-ef5d-4647-be4e-8eb4c44331d0,ሀሴት,+251976765429,"Arba Minch, SNNPR",customer,2025-07-11
+74506ee7-0c95-486d-8ea1-06ec550a651d,Asnake,+251998755118,"Bahir Dar, Amhara",customer,2025-04-12
+cb992ba8-bf37-4194-a03b-013840e89ccd,ብስራት,+251971043929,"Addis Ababa, Addis Ababa",customer,2025-02-22
+1276e613-af2b-47e8-b932-15dce1c10ede,ሃይማኖት,+251998851671,"Dessie, Amhara",customer,2025-01-19
+0e2772e8-408e-4a19-bd48-66291cc38f72,Ramla,+251993636616,"Harar, Harari",customer,2025-01-10
+d151fce7-afc1-4b90-9821-d3c0e4361e27,ሜሪህ,+251925447317,"Bahir Dar, Amhara",customer,2025-09-17
+7f9d04b2-dd00-49f4-94e1-9ca68b30e1af,በላቸው,+251960894177,"Sidama, Sidama",customer,2025-09-15
+57fc7a0d-cb2d-4189-ae02-6217c28aa613,አያና,+251936173668,"Adama, Oromia",customer,2024-12-04
+ed818ba7-f302-48d4-8d70-1176962ad8df,Salah,+251972530243,"Harar, Harari",customer,2025-06-20
+fadb6c3c-0ce1-4f8a-ac81-695e39b24a95,ዲባባ,+251955106185,"Shashemene, Oromia",customer,2024-10-25
+1bc0e64b-9be6-426d-8a33-be5d13012ed7,ስምረት,+251982674982,"Dessie, Amhara",customer,2025-09-17
+958569e4-8d2d-4a34-8062-6105a76ed3e8,ራሔል,+251980628447,"Kobo, Amhara",customer,2025-02-09
+899de33f-adc1-45fe-b4ff-6c74f82e4f01,ፍጹም,+251999340813,"Hawassa, Sidama",customer,2025-01-02
+4f39b9db-d37f-4bbf-8f41-74d6705659d4,Abraham,+251968464957,"Dire Dawa, Dire Dawa",customer,2024-11-04
+b07d4ecf-02c2-45f4-abb3-83bf8c7ab8c1,ደመቀ,+251952818961,"Hawassa, Sidama",customer,2025-04-06
+52debe6a-f153-49cf-8380-732dbd01320c,ሰለሞን,+251980538699,"Kobo, Amhara",customer,2025-06-09
+ee50b17c-75c3-4486-a4d4-c3f0b6abb33c,ሩት,+251958214457,"Shashemene, Oromia",customer,2025-10-01
+52a53908-76c4-415a-ae79-5827206887be,ፀጋ,+251960382927,"Gondar, Amhara",customer,2025-04-23
+378534fe-5dc5-4866-a5c2-97ed45f4fd97,ጌትነት,+251985634727,"Sidama, Sidama",customer,2025-07-02
+4d74b525-c673-4842-8589-ce8e41aacea4,ፍስሃ,+251924521450,"Asella, Oromia",customer,2024-12-16
+6056d198-fc53-429e-a886-7d81d89b0f9a,ናትናኤል,+251938591123,"Kobo, Amhara",customer,2025-07-23
+2e843d3d-c84d-4825-912f-b965b1ab4dc1,Admasu,+251997977491,"Kobo, Amhara",customer,2025-09-30
+5bbdd066-d103-4634-af6a-97c1f7f41f3e,ማሜ,+251968303636,"Gondar, Amhara",customer,2025-05-08
+394065a2-82b0-4918-b012-1a66f772cd00,Rahma,+251910070323,"Shashemene, Oromia",customer,2025-05-08
+52be1f13-7ba7-48d6-a710-bbfdd977dacd,አለምፀሀይ,+251917163153,"Jimma, Oromia",customer,2025-02-17
+491823b1-0724-4826-819e-cb33eb61d407,ሄራን,+251927835976,"Gondar, Amhara",customer,2025-09-14
+41ff1a4e-239f-423d-b02d-2a75d75496d3,Selamawit,+251980469245,"Asella, Oromia",customer,2025-07-18
+e270c6c9-77c0-44e5-88da-d942f921f0dd,ሊሻን,+251922204264,"Sidama, Sidama",customer,2024-11-29
+7f17a096-54f9-49d7-a629-a80fcab2d938,Abraham,+251984958709,"Hawassa, Sidama",customer,2025-06-15
+3e054513-23c1-400d-99d7-5c41bcc0d0a6,አሀዱ,+251919818966,"Meki, Oromia",customer,2025-01-16
+a27528ac-480f-4c81-94d6-41e544c9bd5c,እስጢፋኖስ,+251933830710,"Dire Dawa, Dire Dawa",customer,2025-09-15
+059803ec-2a2a-406e-9b7b-c6f09223a40c,Shiferaw,+251919755879,"Dessie, Amhara",customer,2025-06-02
+fe1949c2-623a-4872-bd53-aca864d6bd94,Saba,+251959404674,"Addis Ababa, Addis Ababa",customer,2024-10-30
+c467753c-c45f-4d6c-aee3-dff45cd2bc4f,አካል,+251957802226,"Dessie, Amhara",customer,2025-02-04
+ddfef956-d396-41b2-a842-8696a6d8a4cd,Saba,+251997609307,"Dessie, Amhara",customer,2025-05-01
+3cce3923-fe3e-4d53-ae54-5e3aea4c519c,አዳነች,+251922258879,"Hawassa, Sidama",customer,2025-04-12
+550f3fef-98cc-43a4-9c63-f13a90d9abee,ደረጀ,+251923542605,"Harar, Harari",customer,2024-11-09
+8062addd-396a-45e1-bc0b-24ba178777a5,Adanech,+251934259354,"Shashemene, Oromia",customer,2025-08-30
+036244f1-84e0-4080-85f4-550ab4afa5ef,Tigabu,+251957458775,"Hawassa, Sidama",customer,2025-06-12
+b8be5158-094e-4a83-8687-5aa7cd946553,ያለም,+251986922650,"Bahir Dar, Amhara",customer,2025-10-05
+a665770a-d814-4ec1-b035-d47781c2c27d,Tefra,+251998867580,"Dire Dawa, Dire Dawa",customer,2025-09-19
+980df490-f96c-45bd-a820-6d1bb8d05129,በረከት,+251940923548,"Bahir Dar, Amhara",customer,2024-10-26
+06825fdc-0578-4c9a-96f8-d1b096dbd8ce,ማቲ,+251998450857,"Gondar, Amhara",customer,2025-02-21
+a9e8aabd-d2e2-4a3f-8d8e-8648ec10dc3e,ያለም,+251955439534,"Mekele, Tigray",customer,2025-01-11
+435fe004-4381-4758-8401-0363f1887d8a,መላት,+251957023801,"Addis Ababa, Addis Ababa",customer,2024-10-23
+7a1c531b-1314-48b7-b148-6a9bbb4fd9b9,Lemma,+251932713295,"Mekele, Tigray",customer,2025-03-13
+d7fd95c9-ace4-4c39-b58b-4800e8894cfd,ዘምዘም,+251923259362,"Sidama, Sidama",customer,2025-04-02
+0256cc65-d496-4874-9ff1-50758fa5ea55,ዘካሪያስ,+251949933824,"Hawassa, Sidama",customer,2025-01-09
+0117c975-98f4-45bc-92c1-4af24571fb25,ሩታ,+251920793361,"Adama, Oromia",customer,2025-01-04
+423b6576-1f47-4d57-8571-57339750d5c5,ኢዮብ,+251953797968,"Shashemene, Oromia",customer,2025-01-14
+e1d21ae2-2a6b-4675-8a5c-24c9dd373101,ዲና,+251942539810,"Asella, Oromia",customer,2025-03-11
+1c2c8bc6-79de-41ff-9b72-95a207af75ca,ጢጋቡ,+251936166922,"Dessie, Amhara",customer,2024-11-08
+6caefba1-2ce8-470a-b912-2fa30c78da88,Adanech,+251937876880,"Asella, Oromia",customer,2025-03-14
+3418947c-5735-4667-a4a1-5688aa00487a,Bahiru,+251995923886,"Addis Ababa, Addis Ababa",customer,2025-04-05
+f070461a-cda4-47d5-bd14-d56c5a458ba3,ተዋበች,+251962473200,"Jimma, Oromia",customer,2025-06-20
+6377c003-3d46-417e-af51-a0b42eb652d0,Tizazu,+251911886753,"Addis Ababa, Addis Ababa",customer,2025-09-20
+d6d61f1d-71fe-41b8-944d-395f7a90c6d9,Tigist,+251993965773,"Arba Minch, SNNPR",customer,2025-01-14
+495f52ef-6d40-4dbf-b2d8-296b2b5baaf5,ሶሊያና,+251983835555,"Harar, Harari",customer,2025-07-18
+a2814fc0-8b4c-460a-a69a-db61f5b81bcd,ሂሩት,+251962610254,"Dire Dawa, Dire Dawa",customer,2025-07-08
+bf5ac846-b52a-4bcd-b98e-0cc935a87ebd,Assefa,+251942004929,"Asella, Oromia",customer,2024-11-28
+1e7435ec-4d6d-403a-866c-ced5c61d6ecf,Yakob,+251919664525,"Shashemene, Oromia",customer,2025-08-03
+f90879a2-4edd-48b7-b192-21c17e8dbfd5,Bekele,+251981685454,"Jimma, Oromia",supplier,2025-06-16
+fd6d66ff-b0c7-4f8d-b4a0-516aeb7f9e6c,ይትባረክ,+251991670884,"Addis Ababa, Addis Ababa",supplier,2025-02-27
+e83b8471-9d84-44b8-b270-7d0c21caf75e,ዘምዘም,+251910252107,"Asella, Oromia",supplier,2025-09-17
+1b9a483f-1a39-427a-ad6a-543f7beead73,አልማዝ,+251982892015,"Mekele, Tigray",supplier,2025-04-07
+fa1b8eea-3b4a-4262-980a-befc74f4ddf0,መላኩ,+251992098470,"Arba Minch, SNNPR",supplier,2025-05-07
+93a65b94-d4ee-43ef-9be0-1a1a3d7fe1e3,በላይነሽ,+251930253873,"Meki, Oromia",supplier,2025-04-02
+9cde3509-c5a4-4c04-9950-bbd3b123073c,Dibaba,+251998155635,"Arba Minch, SNNPR",supplier,2025-02-01
+07aa5e4d-67ca-47e8-b741-7e5f4a9d7e48,ቦና,+251969808928,"Harar, Harari",supplier,2025-09-12
+ef163ecd-d4a4-4e6a-b865-8b78c0d523a7,Rediet,+251956012939,"Arba Minch, SNNPR",supplier,2024-10-31
+184efb2e-07df-4e85-85b4-a142768ea50f,ዙፋን,+251917321953,"Hawassa, Sidama",supplier,2025-04-11
+884328a5-a950-401b-866d-6d518fd87cf2,ይትባረክ,+251984593420,"Adama, Oromia",supplier,2025-01-11
+d1639fc5-9153-41fc-94f3-5fb3b905db89,Admassu,+251927168484,"Adama, Oromia",supplier,2024-12-30
+d96ca327-3631-4e0e-9ebc-cb2899a3ff5b,Eyuel,+251910722297,"Mekele, Tigray",supplier,2025-05-06
+c7765b47-3e86-463c-80f0-c56f5c9a663a,Daniel,+251944632901,"Hawassa, Sidama",supplier,2025-05-31
+b66f8a08-a797-42ec-9af9-7416af28856f,Kassaye,+251950799608,"Bahir Dar, Amhara",supplier,2025-09-19
+5ad1121c-e0ba-4b2b-89de-d80117e0c10c,Shiferaw,+251964358566,"Dire Dawa, Dire Dawa",supplier,2024-12-19
+4e9d1177-8dc9-4692-95e6-141c9be3c85a,Zelalem,+251996396373,"Gondar, Amhara",supplier,2024-12-08
+d57cd20a-f507-4eb3-be02-43f08430a436,ምህረት,+251949214000,"Bahir Dar, Amhara",supplier,2025-09-14
+c413134a-06a7-43fb-b42a-08220f831a88,Fana,+251985302991,"Arba Minch, SNNPR",supplier,2024-12-13
+25fe8e01-81cc-4b86-8092-d420c939a804,Tefera,+251949190172,"Shashemene, Oromia",supplier,2025-04-10
+6eba8612-5a40-4715-a5d5-7c99dc2ac891,ዮሃና,+251951826435,"Shashemene, Oromia",supplier,2025-08-12
+61211dc9-b6bf-445b-b39b-3bec82688cd0,ቤዛዊት,+251987005895,"Mekele, Tigray",supplier,2025-01-12
+c0c45548-cf46-490a-bd93-7887b4f5065e,ኤደን,+251967200262,"Dessie, Amhara",supplier,2024-12-18
+61fdfc0e-2b14-4368-a5ac-5ab5e0800a24,Hadush,+251997025596,"Gondar, Amhara",supplier,2025-09-17
+2b9d127a-db5f-4d5b-a84a-285305313572,ድራሮ,+251998414654,"Adama, Oromia",supplier,2025-06-24
+fcc7eb5a-8c22-4752-9641-ce6e4af1c0d9,ሃዱሽ,+251944334012,"Mekele, Tigray",supplier,2025-01-18
+5a14f455-1d4f-40c7-b516-d3ac15957208,Kiros,+251950271237,"Meki, Oromia",supplier,2025-05-06
+8793abea-90a9-4d13-b9f6-d564789ca327,Birhan,+251988252179,"Hawassa, Sidama",supplier,2024-11-20
+3282bedf-fb8f-498b-9a41-343cbe3ce462,ጢጋቡ,+251941702137,"Hawassa, Sidama",supplier,2025-07-24
+209df7b3-f9a1-4e4f-ab4a-b69b86ddce8c,Melesse,+251999725945,"Bahir Dar, Amhara",supplier,2024-11-29
+7242d583-503e-4f01-9fc4-90b8b8bf3479,Tefra,+251953889683,"Arba Minch, SNNPR",supplier,2024-12-12
+55df0c14-5865-440a-ada4-b170bf862c4b,ኢዛና,+251933867480,"Sidama, Sidama",supplier,2024-11-03
+cea6d653-1d75-4c81-b810-91818c65c0a4,Yewubdar,+251922552013,"Adama, Oromia",supplier,2025-05-22
+a3d580ca-088f-4582-99be-d4d8c16e9b6c,Zewde,+251948092032,"Adama, Oromia",supplier,2025-09-10
+f0a10f61-66b0-4afb-8019-c8b26bdaddf9,ሊዲያ,+251910406936,"Hawassa, Sidama",supplier,2024-11-20
+5cad0c21-6701-4c6b-9286-819851cb6330,Nigist,+251928746802,"Adama, Oromia",supplier,2025-09-30
+10fd1887-76cc-478f-9b70-e745503a180a,Nebil,+251997223761,"Shashemene, Oromia",supplier,2025-02-22
+e78f6b1d-6d07-4eae-af0b-24d29dd71b3d,Lemlem,+251917401348,"Bahir Dar, Amhara",supplier,2025-02-18
+5a6844f7-207f-4711-82f2-63a3bbe261ff,መኮንን,+251948262107,"Addis Ababa, Addis Ababa",supplier,2025-10-02
+e083ba86-aa86-45c3-b245-98b3a89e7987,አምሳለ,+251951427567,"Bahir Dar, Amhara",supplier,2025-03-10
+22edc0e5-e9a1-4c3f-a161-9e620e28570b,Ephrem,+251920297669,"Harar, Harari",supplier,2025-08-05
+9e93c09b-d76f-46ce-b647-4dcd53b3dbbf,ዙፋን,+251952453910,"Adama, Oromia",supplier,2025-09-03
+05e2eaa0-30dc-43ac-b4fe-7bf43ab18cea,ተረፈ,+251954253136,"Addis Ababa, Addis Ababa",supplier,2025-02-09
+5a8f9b94-211e-4826-901c-87720a24a398,ለይላ,+251958436699,"Arba Minch, SNNPR",supplier,2025-03-11
+5ff8779c-d6f0-41ec-8ade-b9cc57d28e7e,Feven,+251993750751,"Dessie, Amhara",supplier,2024-12-25
+c8c4c0b2-64de-43ae-900b-de80889ddf6b,Debre,+251910460288,"Bahir Dar, Amhara",supplier,2024-11-04
+16fc93b2-2959-4cf9-80d3-0fae381004aa,በኃይሉ,+251973429374,"Jimma, Oromia",supplier,2025-02-15
+091c4771-a7e4-4a65-a3f4-eed6efe557b1,አርሴማ,+251970619175,"Sidama, Sidama",supplier,2024-12-24
+83b79bcf-9a38-42f1-bd7a-1b3a811ae92c,ካሌብ,+251947352491,"Asella, Oromia",supplier,2025-04-22
+f1bde479-c9be-4ad0-86d5-c3ce161981cf,ሄራን,+251972010064,"Shashemene, Oromia",supplier,2025-02-13
+33a4c49d-ee84-450c-97e3-3f74820117b6,Samrawit,+251942246150,"Sidama, Sidama",supplier,2025-03-07
+31c3bdc8-05b7-4e99-9e30-60b63b75cb06,ሰለሞን,+251990725751,"Harar, Harari",supplier,2025-03-21
+694e1125-4461-4f95-afd0-80f7bb72d960,ይበልጣል,+251929559914,"Shashemene, Oromia",supplier,2024-12-02
+07fe6d8b-1712-4f1e-bdae-f683801a308d,ታሪክ,+251927319582,"Dire Dawa, Dire Dawa",supplier,2025-09-08
+3c539eed-9ea5-451b-b8dc-dc49d85a0d34,ሲዩም,+251943015368,"Kobo, Amhara",supplier,2025-01-01
+f04d24f6-392f-45b8-bc07-2a6996ad6e63,ታሪክ,+251984136017,"Hawassa, Sidama",supplier,2025-04-07
+5c99f1a3-4833-4c1c-ad17-a663c5fd66bc,Chala,+251949950985,"Shashemene, Oromia",supplier,2025-08-23
+06fc346c-83d3-4cb0-8a5a-20911b08d81a,አፈወርቅ,+251939641312,"Harar, Harari",supplier,2025-03-14
+224b8bdc-9987-485f-b85d-79209e603f6f,Melkam,+251981967664,"Arba Minch, SNNPR",supplier,2025-03-29
+29a48af9-620b-42da-807b-06440cb5b2c1,Mekdes,+251938464662,"Shashemene, Oromia",supplier,2025-01-13
+7c5a0c06-ac89-446b-93dd-0abf1d5d786e,አምሃ,+251958300834,"Meki, Oromia",supplier,2025-08-12
+0cb4f9cc-e928-441f-b406-67a76141413a,Mame,+251973196768,"Jimma, Oromia",supplier,2024-11-22
+ee0127aa-58fd-4f78-a83a-accf71c60f29,Leyla,+251955667944,"Adama, Oromia",supplier,2024-11-29
+fdf25205-d04d-4f7c-b1c2-83e5b0a37c04,Meti,+251915186410,"Bahir Dar, Amhara",supplier,2025-07-02
+238d507f-f9fa-4019-b1dd-b95a33f27598,ልሻን,+251929996483,"Addis Ababa, Addis Ababa",supplier,2025-01-23
+d86b3c27-a0bb-4c48-afbf-38ae110b34c7,መኮንን,+251927602427,"Sidama, Sidama",supplier,2025-02-28
+47909cd0-58e2-4191-94c6-07c6151d4464,Meskere,+251959447321,"Mekele, Tigray",supplier,2024-12-14
+35dd53f2-6199-498a-813b-74871ebf4084,Kassaye,+251970627533,"Asella, Oromia",supplier,2025-02-04
+c38ae679-45e7-446d-bd46-f0a4ee66a4c7,Belay,+251953800309,"Dessie, Amhara",supplier,2025-06-24
+542be229-157b-47be-a574-2e6d9d474c04,Kibrom,+251980257525,"Adama, Oromia",supplier,2025-02-22

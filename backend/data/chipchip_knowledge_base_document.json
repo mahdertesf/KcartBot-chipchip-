@@ -1,0 +1,127 @@
+[
+  {
+    "document_type": "about_company",
+    "topic": "what_is_chipchip",
+    "content": "ChipChip is an advanced AI-driven agricultural e-commerce platform based in Ethiopia. Our primary goal is to bridge the gap between local farmers and suppliers directly with customers, creating a more efficient, transparent, and fresher supply chain."
+  },
+  {
+    "document_type": "mission_statement",
+    "topic": "mission_and_vision",
+    "content": "Our mission at ChipChip is to empower local agricultural producers by providing them with a modern, data-driven platform to reach a wider market. We envision a future where customers have easy access to the freshest local produce, and suppliers can maximize their profits through smart pricing and efficient logistics."
+  },
+  {
+    "document_type": "how_it_works",
+    "topic": "group_buying_for_customers",
+    "content": "To get a discounted price on ChipChip, a user must participate in group buying. First, you create a group for a product. Second, you invite friends, family, or other users by sharing the product link. Third, once the group reaches the required number of participants, the purchase is made at the discounted price, and the fresh products are delivered to your doorstep."
+  },
+  {
+    "document_type": "how_it_works",
+    "topic": "super_leader_program",
+    "content": "You can become a 'ChipChip Super Leader' by registering with your name, phone, and address. Leaders are part of our community who collect group orders from others and earn rewards for their efforts."
+  },
+  {
+    "document_type": "mobile_app",
+    "topic": "download_app",
+    "content": "ChipChip has a mobile app available for both iOS and Android devices. You can download it from the App Store or the Play Store to shop anytime, anywhere and enjoy exclusive deals and promotions."
+  },
+  {
+    "document_type": "news_and_awards",
+    "topic": "africa_tech_summit_2025",
+    "content": "News (January 30, 2025): ChipChip was proudly named a finalist for the Africa Tech Summit Awards 2025 in the Agri-tech Award category. This is a testament to our team's hard work and dedication to our mission."
+  },
+  {
+    "document_type": "news_and_events",
+    "topic": "sidama_farmers_workshop",
+    "content": "News (December 27, 2024): This week, ChipChip partnered with the Sidama National Regional State Bureau of Agriculture and the Sidama Cooperative Agency to host a workshop with over 88 farmers and 7 cooperatives across the region, introducing them to our platform and learning about their challenges."
+  },
+  {
+    "document_type": "news_and_milestones",
+    "topic": "one_million_kg_milestone",
+    "content": "News (December 16, 2024): We are thrilled to announce that ChipChip has crossed an incredible milestone: 1,000,000 kilograms of farm products sourced directly from farmers and delivered to our customers' doorsteps! This achievement highlights the power of our farm-to-fork model."
+  },
+  {
+    "document_type": "news_and_awards",
+    "topic": "kofi_annan_award_2024",
+    "content": "News (September 5, 2024): ChipChip has won the prestigious Kofi Annan Award for Innovation in Africa! Competing against nearly 900 startups, we emerged victorious after just 10 months of operation. This recognition fuels our drive to continue pushing boundaries."
+  },
+  {
+    "document_type": "news_and_awards",
+    "topic": "gogettaz_agripreneur_prize_2024",
+    "content": "News (September 4, 2024): Our CMO, Bruk Getahun, represented ChipChip in Rwanda as the only Ethiopian startup invited to the prestigious GoGettaz Africa Agripreneur Prize Competition, where we were one of the 12 finalists."
+  },
+  {
+    "document_type": "careers",
+    "topic": "general_hiring_information",
+    "content": "We are always looking for passionate individuals to help us revolutionize the way people access fresh farm produce. If you don't see a position that fits your skills, you can send your resume to our HR team and we'll keep it on file for future opportunities."
+  },
+  {
+    "document_type": "careers",
+    "topic": "job_opening_ai_agents_developer",
+    "content": "Open Position: AI Agents Developer (LLM Integration & Data Handling) in Addis Ababa. We are seeking an innovative developer to architect and deploy cutting-edge, conversational AI systems. Key skills include LangChain, RAG, Python, and SQL. A demo project or portfolio is required."
+  },
+  {
+    "document_type": "careers",
+    "topic": "job_opening_talent_acquisition",
+    "content": "Open Position: Talent Acquisition Specialist in Addis Ababa. This role will support our HR Department in sourcing, attracting, and hiring top talent. Requires a Bachelor’s degree and 3+ years of experience in recruitment. Experience with the Ethiopian labor market is a plus."
+  },
+  {
+    "document_type": "careers",
+    "topic": "job_opening_ai_engineer_recommendation",
+    "content": "Open Position: AI Engineer / Data Scientist - Recommendation & Product List Systems in Addis Ababa. This role is responsible for developing algorithms for product metadata, personalized recommendations, and notification sequences. Requires experience with collaborative/content-based filtering and MLOps."
+  },
+  {
+    "document_type": "careers",
+    "topic": "job_opening_ai_engineer_forecasting",
+    "content": "Open Position: AI Engineer / Data Scientist - Forecasting, Demand & Pricing Algorithm in Addis Ababa. This role involves building models to predict demand trends, market prices, and order volumes. Requires experience with time-series forecasting models like Prophet or LSTM and dynamic pricing algorithms."
+  },
+  {
+    "document_type": "careers",
+    "topic": "job_opening_fmcg_purchaser",
+    "content": "Open Position: Purchaser for FMCG Product / FMCG Product Sourcing Specialist in Addis Ababa. This role is about finding suppliers, negotiating pricing, and ensuring we have the right products at the best cost. Requires a degree in Supply Chain or a related field and 1+ years of experience."
+  },
+  {
+    "document_type": "contact_info",
+    "topic": "how_to_contact",
+    "content": "To get in touch with us, you can email our support team at support@chipchip.social or call us at +251 111 139 770. Our main office is located in Addis Ababa, Ethiopia."
+  },
+  {
+    "document_type": "legal",
+    "topic": "privacy_and_terms",
+    "content": "All services provided by ChipChip are subject to our Privacy Policy and Terms and Conditions. The company is ChipChip Inc. and all rights are reserved."
+  },
+  {
+    "document_type": "how_to_join",
+    "topic": "customer_registration_steps",
+    "content": "To register as a customer, simply click the 'Sign Up' button on our platform. You will be asked to select the 'Customer' role, fill in your name, phone number, and default delivery location. Once registered, you can immediately start browsing products, joining buying groups, and placing orders."
+  },
+  {
+    "document_type": "how_to_join",
+    "topic": "supplier_registration_steps",
+    "content": "To register as a supplier, click the 'Sign Up' button and select the 'Supplier' role. You'll need to provide your name and phone number to create an account. After you've registered, you can start listing your products right away using our conversational AI assistant, which will guide you through setting prices and quantities."
+  },
+  {
+    "document_type": "benefits",
+    "topic": "customer_benefits",
+    "content": "The main benefits for customers are lower prices and fresher produce. By using our group buying feature, you can access bulk discounts that aren't available to individual buyers. Furthermore, because we connect you directly with farmers, your food is fresher, and you're supporting local communities."
+  },
+  {
+    "document_type": "benefits",
+    "topic": "supplier_benefits",
+    "content": "For suppliers, ChipChip offers direct access to a large market of customers, removing the need for middlemen. Our platform's most powerful feature is the AI-powered pricing assistant, which provides data-driven suggestions to help you price your products competitively and sell your stock quickly, maximizing your profit."
+  },
+  {
+    "document_type": "faq",
+    "topic": "joining_fees",
+    "content": "There are no fees to register or join ChipChip. Creating an account is completely free for both customers and suppliers. Our business model is based on creating a successful marketplace, not on charging entry fees."
+  },
+  {
+    "document_type": "faq",
+    "topic": "product_categories",
+    "content": "ChipChip specializes in fresh agricultural products sourced directly from Ethiopian farms. Our main categories include horticulture, such as fresh fruits and vegetables, and dairy products like milk, yogurt, and spiced butter (kibe)."
+  },
+  {
+    "document_type": "logistics",
+    "topic": "delivery_locations",
+    "content": "ChipChip is actively expanding its delivery network. We currently facilitate connections and deliveries in several key regions, including Oromia, Amhara, Tigray, and Sidama, with a focus on major towns like Addis Ababa, Jimma, Meki, Kobo, and Mekele. We are constantly working to bring our services to more locations across Ethiopia."
+  }
+]

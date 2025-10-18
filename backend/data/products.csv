@@ -1,0 +1,21 @@
+product_id,product_name,internal_name,unit,photo_url,base_price_etb,season_peak_month
+1bdfbe2d-0369-46db-84d0-5f0d4078855d,Red Onions,red_onions,Kg,,45.0,10
+dd5e3dc2-f8ef-4b3a-ab49-c24ff66f0361,ቲማቲም,tomatoes,Kg,,50.0,11
+7ffa5168-db6a-4dc5-b6bd-ac29510d16a3,Potatoes,potatoes,Kg,,30.0,11
+6f2db818-370f-40b0-82cd-4056279ed52f,ነጭ ሽንኩርት,garlic,Kg,,150.0,9
+947ed851-3b4d-4f19-bfd0-d2549b6d5413,Cabbage,cabbage,Kg,,25.0,12
+fef1c6ab-e1e7-48e1-a300-0da20f4126fd,ካሮት,carrots,Kg,,35.0,12
+afbfea36-0f30-4b5f-a626-0f7817d58411,Green Peppers,green_peppers,Kg,,60.0,10
+5ea4e08f-984b-4fc8-a525-4bf4d8457631,ጎመን,collard_greens,Kg,,20.0,9
+e2af1539-5439-402d-8375-b1f81b079487,Avocados,avocados,Kg,,90.0,7
+5ca7a2bc-1861-431d-be85-967db2ce2af7,ሙዝ,bananas,Kg,,50.0,5
+eb714ffb-5d43-4f94-a54c-5dc5c4098f5a,Mangoes,mangoes,Kg,,80.0,5
+23bf20d4-c40f-40fe-b37b-08c8b9117f81,ፓፓያ,papayas,Kg,,70.0,6
+fa074998-bc23-497e-9013-e3a64bb9a733,Oranges,oranges,Kg,,65.0,1
+fc1035cc-1ef7-4f92-9b87-d3f7dd974317,ሎሚ,lemons,Kg,,75.0,1
+27a364f0-4e87-4577-8cf6-43dccf4a7099,Watermelon,watermelon,Kg,,15.0,4
+93703ce8-342e-4ceb-980b-c05d5df00798,ወተት,milk,Liter,,85.0,8
+d951ffa2-8e63-4b49-b562-98d454a08475,Yogurt,yogurt,Liter,,95.0,8
+85809f53-c481-4504-84b7-8ced3906c86a,ቅቤ,kibe,Kg,,1200.0,8
+d6e6eb46-3933-44da-8458-25659679e547,Sweet Potatoes,sweet_potatoes,Kg,,40.0,11
+4d570241-3cb7-4859-8631-3a8beac45f0e,ዝንጅብል,ginger,Kg,,180.0,12
