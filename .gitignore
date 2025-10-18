@@ -3,6 +3,7 @@
 env/
 venv/
 project_instruction/
+project support/
 
 /backend/env/
 /backend/venv/

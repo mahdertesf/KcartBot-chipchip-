@@ -3,41 +3,57 @@ import numpy as np
 import random
 import os
 from datetime import datetime, timedelta
+from constants import PRODUCT_ENHANCEMENTS
 
-PRODUCTS_FILE = os.path.join("../../data", "products.csv")
-OUTPUT_DIR = "../../data"
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, "competitor_prices.csv")
+DATA_DIR = os.path.join(os.path.dirname(__file__), '../../', 'data')
+PRODUCTS_FILE = os.path.join(DATA_DIR, "products.csv")
+OUTPUT_FILE = os.path.join(DATA_DIR, "competitor_prices.csv")
+
 
 DAYS_OF_HISTORY = 365
 SEASONALITY_INTENSITY = 0.3
 NOISE_INTENSITY = 0.02
-
 COMPETITOR_TIERS = {
     "local_shop": 1.0,
     "supermarket": 1.30,
     "distribution_center": 0.85
 }
 
-def generate_competitor_prices():
+def run_historical_data_pipeline():
     """
-    Generates a 1-year historical dataset of competitor prices for all products.
-    Uses a sine wave to simulate seasonality and adds daily noise for realism.
+    Orchestrates the pipeline to generate historical competitor prices.
+    It enhances product data in-memory for the simulation, ensuring the
+    original product data file on disk remains unchanged.
     """
-    print("Starting historical competitor price generation...")
+    print("--- Starting Historical Data Generation Pipeline ---")
 
     try:
         products_df = pd.read_csv(PRODUCTS_FILE)
     except FileNotFoundError:
-        print(f"Error: The file '{PRODUCTS_FILE}' was not found.")
-        print("Please run generate_products.py and enhance_products.py first.")
+        print(f"Error: The file '{PRODUCTS_FILE}' was not found. Please run generate_products.py first.")
         return
 
+    print("\n[STEP 1/2] Enhancing product data in memory for simulation...")
+    
+    def get_base_price(internal_name):
+        return PRODUCT_ENHANCEMENTS.get(internal_name, {}).get("price", 0.0)
+
+    def get_peak_month(internal_name):
+        return PRODUCT_ENHANCEMENTS.get(internal_name, {}).get("peak_month", 1)
+
+    enhanced_products_df = products_df.copy()
+    enhanced_products_df['base_price_etb'] = enhanced_products_df['internal_name'].apply(get_base_price)
+    enhanced_products_df['season_peak_month'] = enhanced_products_df['internal_name'].apply(get_peak_month)
+    print("In-memory data enhancement complete.")
+
+    print("\n[STEP 2/2] Generating 1-year of historical competitor prices...")
+    
     prices_data = []
     today = datetime.now()
 
-    print(f"Simulating prices for {len(products_df)} products over {DAYS_OF_HISTORY} days...")
+    print(f"Simulating prices for {len(enhanced_products_df)} products over {DAYS_OF_HISTORY} days...")
 
-    for index, product in products_df.iterrows():
+    for index, product in enhanced_products_df.iterrows():
         base_price = product['base_price_etb']
         peak_month = product['season_peak_month']
         peak_day_of_year = peak_month * 30 - 15
@@ -61,22 +77,15 @@ def generate_competitor_prices():
                 })
         
         if (index + 1) % 5 == 0:
-            print(f"  ...processed {index + 1}/{len(products_df)} products...")
+            print(f"  ...processed {index + 1}/{len(enhanced_products_df)} products...")
 
     prices_df = pd.DataFrame(prices_data)
-
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
     prices_df.to_csv(OUTPUT_FILE, index=False)
-
-    print("-" * 30)
+    
     print(f"Successfully generated {len(prices_df)} historical price records.")
     print(f"Data saved to '{OUTPUT_FILE}'")
-    print("-" * 30)
-
-    print("Sample of generated competitor price data:")
-    print(prices_df.head())
-    print("...")
-    print(prices_df.tail())
+    
+    print("\n--- Historical Data Generation Pipeline Complete ---")
 
 if __name__ == "__main__":
-    generate_competitor_prices()
+    run_historical_data_pipeline()
