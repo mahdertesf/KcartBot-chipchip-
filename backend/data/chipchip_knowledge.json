@@ -1,0 +1,122 @@
+[
+    {
+      "document_type": "about_company",
+      "topic": "what_is_chipchip",
+      "content": "ChipChip is an advanced AI-driven agricultural e-commerce platform based in Ethiopia. Our primary goal is to bridge the gap between local farmers and suppliers directly with customers, creating a more efficient, transparent, and fresher supply chain through a model called 'social buying' or 'group buying'."
+    },
+    {
+      "document_type": "mission_statement",
+      "topic": "mission_and_vision",
+      "content": "Our mission at ChipChip is to empower local agricultural producers by providing them with a modern, data-driven platform to reach a wider market. We envision a future where customers have easy access to the freshest local produce at fair prices, and suppliers can maximize their profits through smart pricing and efficient logistics."
+    },
+    {
+      "document_type": "contact_info",
+      "topic": "full_contact_details",
+      "content": "You can get in touch with ChipChip through several channels. For general support, email us at support@chipchip.social. For sales or partnership inquiries, please contact sales@chipchip.social. Our customer support phone line is +251 111 139 770, available from 9 AM to 5 PM, Monday to Friday. Our main office is located on the 5th Floor of the Zemen Bank Building, Bole, Addis Ababa, Ethiopia. Our official website is www.chipchip.et."
+    },
+    {
+      "document_type": "contact_info",
+      "topic": "social_media_links",
+      "content": "Stay connected with ChipChip! You can follow us on our social media channels for the latest news, promotions, and updates. Find us on Facebook at facebook.com/chipchipET, on Twitter (X) at @chipchipET, and on Instagram at @chipchip.ethiopia."
+    },
+    {
+      "document_type": "product_info",
+      "topic": "what_products_do_you_sell",
+      "content": "We specialize in fresh agricultural products sourced directly from Ethiopian farms. Our main categories include a wide variety of Fresh Vegetables like onions, tomatoes, potatoes, and garlic; a rotating selection of Seasonal Fruits such as avocados, mangoes, and bananas; and essential Local Dairy Products including fresh milk, yogurt, and traditional spiced butter (kibe)."
+    },
+    {
+      "document_type": "product_info",
+      "topic": "product_sourcing_and_quality",
+      "content": "Our sourcing philosophy is 'farm-to-fork.' We partner directly with a network of vetted local farmers and cooperatives across regions like Sidama and Oromia. While not all farms are certified organic, many follow sustainable and traditional farming practices. Our direct model ensures you receive produce that is significantly fresher than what is typically found in supermarkets."
+    },
+    {
+      "document_type": "how_it_works",
+      "topic": "group_buying_explanation",
+      "content": "Group buying is the core feature of our platform that allows you to save money. By pooling individual orders together into one large group order, we can purchase goods from suppliers in bulk. This unlocks wholesale prices that are much lower than typical retail prices, and we pass those savings directly on to you."
+    },
+    {
+      "document_type": "how_it_works",
+      "topic": "group_buying_example",
+      "content": "Here's a simple example of group buying: A supplier offers a large 50kg bag of potatoes at a great price, but you only need 5kg. Through ChipChip, you can join a group with nine other people who also want 5kg. Once the group is full, ChipChip facilitates the purchase of the 50kg bag and delivers 5kg to each member. Everyone gets the potatoes they need at a much lower price!"
+    },
+    {
+      "document_type": "how_it_works",
+      "topic": "super_leader_program",
+      "content": "A 'ChipChip Super Leader' is a community organizer who earns rewards. Leaders create buying groups, invite their neighbors and friends, and manage the collection of orders for their local area. In return for organizing, leaders receive commissions, special discounts, and bonuses, making it a great way to earn extra income while serving your community."
+    },
+    {
+      "document_type": "faq",
+      "topic": "payment_methods",
+      "content": "For your convenience and to build trust, our primary payment method is Cash on Delivery (COD). This means you only pay for your order in cash once you have received it at your doorstep. We are exploring digital payment options for the future."
+    },
+    {
+      "document_type": "faq",
+      "topic": "return_and_refund_policy",
+      "content": "Your satisfaction is our top priority. If you receive a product that is not fresh or does not meet your expectations, please contact our support team at support@chipchip.social within 24 hours of delivery, preferably with a photo. We will arrange for a replacement or a credit for your next purchase."
+    },
+    {
+      "document_type": "faq",
+      "topic": "joining_fees_and_costs",
+      "content": "There are absolutely no fees to register or join ChipChip. Creating an account is completely free for both customers and suppliers. Our business model is based on creating a successful and efficient marketplace, not on charging entry fees."
+    },
+    {
+      "document_type": "faq",
+      "topic": "data_security_and_privacy",
+      "content": "We take your privacy and data security very seriously. All personal information is encrypted during transmission and stored securely. We follow industry best practices to protect your data and will never share your personal information with third parties without your explicit consent."
+    },
+    {
+      "document_type": "logistics",
+      "topic": "delivery_fees",
+      "content": "ChipChip aims to keep delivery affordable. A small delivery fee is calculated based on your distance from the supplier's distribution hub. You will always see the final, exact delivery fee clearly before you confirm your order. There are no hidden charges."
+    },
+    {
+      "document_type": "logistics",
+      "topic": "delivery_timeline",
+      "content": "Our delivery timeline depends on the group buying process. Once a group is filled and the order is confirmed with the supplier, deliveries are typically scheduled within 24 to 48 hours. Our model prioritizes maximum freshness over instant delivery, ensuring you get produce straight from the farm."
+    },
+    {
+      "document_type": "logistics",
+      "topic": "delivery_locations",
+      "content": "ChipChip is actively expanding its delivery network. We currently facilitate deliveries in several key regions, including Oromia, Amhara, Tigray, and Sidama, with a focus on major towns like Addis Ababa, Jimma, Meki, Kobo, and Mekele. We are constantly working to bring our services to more locations across Ethiopia."
+    },
+    {
+      "document_type": "how_to_join",
+      "topic": "customer_registration_steps",
+      "content": "To register as a customer, simply click the 'Sign Up' button on our platform. You will be asked to select the 'Customer' role and fill in your details. Once registered, you can immediately start browsing products, joining buying groups, and placing orders."
+    },
+    {
+      "document_type": "how_to_join",
+      "topic": "supplier_registration_steps",
+      "content": "To register as a supplier, click the 'Sign Up' button and select the 'Supplier' role. After creating an account, you can start listing your products right away using our conversational AI assistant, which will guide you through setting prices and quantities."
+    },
+    {
+      "document_type": "benefits",
+      "topic": "customer_benefits",
+      "content": "The main benefits for customers are lower prices and fresher produce. By using our group buying feature, you can access bulk discounts that aren't available to individual buyers. Furthermore, because we connect you directly with farmers, your food is fresher, and you're actively supporting local communities."
+    },
+    {
+      "document_type": "benefits",
+      "topic": "supplier_benefits",
+      "content": "For suppliers, ChipChip offers direct access to a large market of customers, removing the need for middlemen. Our platform's most powerful feature is the AI-powered pricing assistant, which provides data-driven suggestions to help you price your products competitively and sell your stock quickly, maximizing your profit."
+    },
+    {
+      "document_type": "mobile_app",
+      "topic": "download_app",
+      "content": "ChipChip has a mobile app available for both iOS and Android devices. You can download it from the App Store or the Play Store to shop anytime, anywhere and enjoy exclusive deals and promotions."
+    },
+    {
+      "document_type": "news_and_awards",
+      "topic": "recent_awards_and_news",
+      "content": "ChipChip has been recognized for its innovation in the African tech ecosystem. We were honored to win the prestigious Kofi Annan Award for Innovation in Africa and were also a finalist for the Africa Tech Summit Awards 2025 in the Agri-tech category."
+    },
+    {
+      "document_type": "careers",
+      "topic": "general_hiring_information",
+      "content": "We are always looking for passionate individuals to join our mission. You can view our open positions on the 'Careers' page. If you don't see a role that fits, feel free to send your resume to our HR team for future consideration."
+    },
+    {
+      "document_type": "legal",
+      "topic": "privacy_and_terms",
+      "content": "All services provided by ChipChip are subject to our Privacy Policy and Terms and Conditions. The company is ChipChip Inc. and all rights are reserved."
+    }
+  ]
