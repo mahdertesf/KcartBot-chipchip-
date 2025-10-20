@@ -28,9 +28,7 @@ An AI-powered marketplace assistant powered by LangChain, Google Gemini, and RAG
 - [Setup Instructions](#-setup-instructions)
 - [Usage Guide (Testing Script)](#-usage-guide-testing-script)
 - [Architectural Decisions](#-architectural-decisions)
-- [Future Improvements & Scalability](#-future-improvements--scalability)
 - [Performance Metrics](#-performance-metrics)
-- [Dependencies](#-dependencies)
 
 ---
 
@@ -453,13 +451,13 @@ Automatic language detection and translation for English and Amharic (both Fidel
 
 ![Image Generation](./images_for_readme/image%20generation%20by%20supplier'.png)
 
-*Generate professional product images using Runware AI*
+*Generate professional product images using Runware AI (Free API)*
 
 </div>
 
 **Image Generation Workflow:**
 1. Supplier provides product description
-2. AI generates professional product photo (1024x1024)
+2. AI generates professional product photo (1024x1024) using Runware's free API
 3. Supplier reviews and approves
 4. Image attached to inventory listing
 
@@ -494,7 +492,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 | LangChain Google GenAI | 2.0.9 | Gemini integration |
 | ChromaDB | 0.6.2 | Vector database |
 | APScheduler | 3.11.0 | Background tasks |
-| Runware | 0.5.2 | AI image generation |
+| Runware | 0.5.2 | AI image generation (Free API) |
 
 ### Frontend
 
@@ -515,7 +513,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 | Redis | Channel layer for WebSocket, caching |
 | ChromaDB | Vector database for RAG system |
 | Google Gemini | LLM, embeddings, translation |
-| Runware | AI image generation |
+| Runware | AI image generation (Free API) |
 
 ---
 
@@ -649,7 +647,7 @@ KcartBot-chipchip-/
 
 #### 5. **Image Generator (`image_generator.py`)**
 - **Purpose**: AI-powered product image generation
-- **Integration**: Uses Runware API
+- **Integration**: Uses Runware API (Free image generation service)
 - **Output**: High-quality 1024x1024 product images
 
 #### 6. **WebSocket Consumer (`consumers.py`)**
@@ -714,7 +712,7 @@ KcartBot-chipchip-/
 - **Node.js** 18 or higher
 - **Docker** and Docker Compose
 - **Google Gemini API Key** ([Get one here](https://makersuite.google.com/app/apikey))
-- **Runware API Key** ([Get one here](https://runware.ai/))
+- **Runware API Key** (Free - [Get one here](https://runware.ai/))
 
 ### Step 1: Clone the Repository
 
@@ -1428,402 +1426,6 @@ python manage.py check_expiring_stock --days=7
 **Scalability Note:**
 For production at scale, would migrate to Celery or cloud-based scheduler (AWS EventBridge, Google Cloud Scheduler)
 
----
-
-## 🚀 Future Improvements & Scalability
-
-### Short-Term Improvements (1-3 months)
-
-#### 1. **Payment Integration**
-- **Implementation**: Stripe or Chapa (Ethiopian payment gateway)
-- **Impact**: Complete end-to-end e-commerce flow
-- **Architecture**: Add PaymentService layer, webhook handlers
-
-#### 2. **SMS Notifications**
-- **Implementation**: Twilio or Africa's Talking API
-- **Impact**: Reach users without internet access
-- **Use Cases**: Order confirmations, delivery updates
-
-#### 3. **Advanced Caching**
-- **Implementation**: Redis caching for pricing suggestions, product searches
-- **Impact**: Reduce database load, faster response times
-- **Strategy**: Cache-aside pattern with TTL
-
-#### 4. **Rate Limiting**
-- **Implementation**: Django ratelimit or API throttling
-- **Impact**: Prevent abuse, ensure fair usage
-- **Limits**: 100 requests/minute per user
-
-#### 5. **Enhanced Monitoring**
-- **Tools**: Sentry (error tracking), Prometheus (metrics), Grafana (dashboards)
-- **Metrics**: Response times, error rates, LLM token usage, WebSocket connections
-- **Alerting**: Slack/Email alerts for critical errors
-
----
-
-### Medium-Term Improvements (3-6 months)
-
-#### 6. **Microservices Architecture**
-
-**Current Monolith → Future Microservices:**
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                     API Gateway                          │
-│              (Kong / AWS API Gateway)                    │
-└──────────────────┬──────────────────────────────────────┘
-                   │
-         ┌─────────┴─────────┬──────────┬────────────┬─────────┐
-         │                   │          │            │         │
-    ┌────▼────┐      ┌──────▼─────┐  ┌─▼────────┐ ┌─▼──────┐│
-    │  Auth   │      │   Chat     │  │ Inventory│ │ Orders ││
-    │ Service │      │  Service   │  │ Service  │ │Service ││
-    └─────────┘      └────────────┘  └──────────┘ └────────┘│
-                                                              │
-    Each service has its own database (database-per-service pattern)
-```
-
-**Benefits:**
-- Independent scaling (scale chat service ≠ scale inventory service)
-- Technology diversity (use Go for high-performance services)
-- Fault isolation (one service failure doesn't crash entire system)
-- Independent deployment (deploy updates without downtime)
-
-**Migration Strategy:**
-1. Extract authentication service first (least dependencies)
-2. Separate chat/AI service (high compute, different scaling needs)
-3. Split transactional services (inventory, orders)
-4. Use event-driven communication (Kafka, RabbitMQ)
-
-#### 7. **Caching Layer Enhancement**
-
-**Multi-Level Caching:**
-```
-User Request
-    ↓
-Browser Cache (static assets)
-    ↓
-CDN (CloudFlare, AWS CloudFront)
-    ↓
-Redis Cache (API responses, LLM results)
-    ↓
-PostgreSQL (source of truth)
-```
-
-**What to Cache:**
-- **Product Searches**: 5-minute TTL
-- **Pricing Suggestions**: 1-hour TTL
-- **RAG Responses**: 24-hour TTL (invalidate on knowledge base update)
-- **LLM Responses**: Cache identical queries (semantic hashing)
-
-#### 8. **Horizontal Scaling Strategy**
-
-**Current:** Single Django server, single database
-
-**Future:**
-```
-                          ┌─────────────┐
-           ┌─────────────►│ Django App 1│
-           │              └─────────────┘
-           │              ┌─────────────┐
-Users ────►│ Load        ►│ Django App 2│
-           │ Balancer     └─────────────┘
-           │              ┌─────────────┐
-           └─────────────►│ Django App N│
-                          └─────────────┘
-                                 ↓
-                          ┌──────────────┐
-                          │ PostgreSQL   │
-                          │ Primary +    │
-                          │ Read Replicas│
-                          └──────────────┘
-```
-
-**Components:**
-- **Load Balancer**: Nginx, AWS ALB, or Google Cloud Load Balancer
-- **Auto-Scaling**: Kubernetes HPA or AWS Auto Scaling Groups
-- **Database**: Primary-replica setup with read/write splitting
-- **Session Store**: Redis for shared sessions across instances
-
-**Scaling Triggers:**
-- CPU > 70% for 5 minutes → scale up
-- Request rate > 1000 req/s → add instance
-- WebSocket connections > 5000 → add instance
-
-#### 9. **Advanced AI Features**
-
-**Multi-Agent Collaboration:**
-- Specialized agents for different product categories
-- Agent handoff for complex queries
-- Meta-agent that routes to specialist agents
-
-**Long-Term Memory:**
-- Store user preferences (favorite products, usual quantities)
-- Learn from past orders
-- Personalized recommendations
-
-**Proactive Suggestions:**
-- "You usually order tomatoes on Mondays. Need to restock?"
-- "Your favorite supplier has a discount today"
-- Seasonal product recommendations
-
----
-
-### Long-Term Vision (6-12+ months)
-
-#### 10. **Cloud-Native Deployment**
-
-**AWS Architecture:**
-```
-┌────────────────────────────────────────────────────────┐
-│  CloudFront (CDN) + S3 (React Static Files)            │
-└─────────────────────┬──────────────────────────────────┘
-                      │
-┌─────────────────────▼──────────────────────────────────┐
-│  Application Load Balancer (HTTPS, SSL Termination)    │
-└─────────────────────┬──────────────────────────────────┘
-                      │
-┌─────────────────────▼──────────────────────────────────┐
-│  ECS Fargate or EKS (Kubernetes)                        │
-│  ┌──────────┐ ┌──────────┐ ┌──────────┐               │
-│  │Django Pod│ │Django Pod│ │Django Pod│               │
-│  └──────────┘ └──────────┘ └──────────┘               │
-└─────────────────────┬──────────────────────────────────┘
-                      │
-       ┌──────────────┼──────────────┐
-       │              │              │
-┌──────▼─────┐ ┌─────▼─────┐ ┌─────▼──────┐
-│RDS         │ │ElastiCache│ │  S3        │
-│PostgreSQL  │ │ Redis     │ │ (uploads)  │
-└────────────┘ └───────────┘ └────────────┘
-```
-
-**Services Used:**
-- **Compute**: ECS Fargate (serverless containers) or EKS (Kubernetes)
-- **Database**: RDS PostgreSQL with Multi-AZ for high availability
-- **Cache**: ElastiCache Redis cluster
-- **Storage**: S3 for user uploads, static files
-- **CDN**: CloudFront for global distribution
-- **Monitoring**: CloudWatch, X-Ray for tracing
-- **Secrets**: AWS Secrets Manager for API keys
-- **Queue**: SQS for asynchronous tasks
-
-**Cost Optimization:**
-- Reserved instances for baseline capacity
-- Spot instances for batch processing
-- S3 lifecycle policies (move old data to Glacier)
-- CloudFront edge caching reduces origin requests
-
-#### 11. **Global Multi-Region Deployment**
-
-**For International Expansion:**
-```
-┌─────────────┐        ┌─────────────┐        ┌─────────────┐
-│   Region 1  │        │   Region 2  │        │   Region 3  │
-│ (Ethiopia)  │        │ (Kenya)     │        │ (Nigeria)   │
-│             │        │             │        │             │
-│ App Servers │───────►│ App Servers │───────►│ App Servers │
-│ Database    │        │ Database    │        │ Database    │
-└─────────────┘        └─────────────┘        └─────────────┘
-       │                      │                      │
-       └──────────────────────┴──────────────────────┘
-                              │
-                        Global Load
-                        Balancer
-```
-
-**Implementation:**
-- **Multi-Region Active-Active**: Users routed to nearest region
-- **Database Replication**: Cross-region replication for DR
-- **Data Sovereignty**: Store data in local regions (compliance)
-- **CDN**: CloudFlare or Fastly for global edge caching
-
-#### 12. **AI/ML Enhancements**
-
-**Demand Forecasting:**
-- Predict product demand using historical data
-- Help suppliers optimize inventory levels
-- Reduce waste from over-production
-
-**Price Optimization:**
-- Dynamic pricing based on supply/demand
-- ML model trained on historical sales
-- Maximize revenue while staying competitive
-
-**Image Recognition:**
-- Upload product photos → AI extracts details
-- Quality assessment from images
-- Automated categorization
-
-**Sentiment Analysis:**
-- Analyze customer feedback
-- Detect satisfaction trends
-- Proactive issue resolution
-
-#### 13. **Blockchain for Supply Chain Transparency**
-
-**Use Case:** Track products from farm to consumer
-
-**Implementation:**
-```
-Farmer → Supplier → Distributor → Customer
-  ↓        ↓           ↓             ↓
-[Block 1][Block 2]  [Block 3]   [Block 4]
-```
-
-**Benefits:**
-- Immutable record of product journey
-- Verify organic/fair-trade claims
-- Build consumer trust
-
-**Technology:** Ethereum, Hyperledger, or Polygon (lower gas fees)
-
-#### 14. **Mobile Applications**
-
-**Native Apps (iOS & Android):**
-- React Native for cross-platform development
-- Push notifications for orders and alerts
-- Offline mode for viewing past orders
-- Camera integration for product photos
-- Geolocation for delivery tracking
-
-**Features:**
-- Voice input (speech-to-text for Amharic)
-- Biometric authentication
-- QR code scanning for products
-- AR for product visualization
-
----
-
-### Scalability Strategies
-
-#### Handling 1,000 Concurrent Users
-
-**Current Capacity:** ~100 concurrent users
-
-**Bottlenecks:**
-1. LLM API rate limits
-2. Single database instance
-3. Single app server
-
-**Solutions:**
-1. **LLM Request Queuing**
-   - Implement request queue (Redis Queue, Celery)
-   - Batch similar requests
-   - Cache frequent queries
-   
-2. **Database Optimization**
-   - Add read replicas
-   - Use connection pooling (PgBouncer)
-   - Optimize slow queries (indexing)
-   
-3. **Horizontal App Scaling**
-   - Deploy 3-5 app instances
-   - Use load balancer
-   - Shared Redis session store
-
-**Estimated Cost:** $500-1000/month on AWS
-
----
-
-#### Handling 10,000 Concurrent Users
-
-**New Challenges:**
-- Database write contention
-- WebSocket connection limits
-- LLM API costs escalate
-
-**Solutions:**
-1. **Database Sharding**
-   - Shard by user_id or region
-   - Use Citus or Vitess for distributed PostgreSQL
-   
-2. **WebSocket Scaling**
-   - Dedicated WebSocket servers
-   - Redis Pub/Sub for cross-server messaging
-   - AWS AppSync or Pusher for managed WebSockets
-   
-3. **LLM Cost Optimization**
-   - Aggressive caching (Redis)
-   - Semantic deduplication (similar queries cached)
-   - Use smaller models for simple queries
-   - Batch processing where possible
-   
-4. **CDN and Edge Caching**
-   - CloudFlare Workers for edge computing
-   - Cache product searches at edge
-   - Reduce backend hits
-
-**Estimated Cost:** $5,000-10,000/month on AWS
-
----
-
-#### Handling 100,000+ Concurrent Users
-
-**Enterprise Scale:**
-- Full microservices architecture
-- Multi-region deployment
-- Dedicated AI infrastructure
-
-**Solutions:**
-1. **Kubernetes (EKS/GKE)**
-   - Auto-scaling pods
-   - Self-healing infrastructure
-   - Blue-green deployments
-   
-2. **Message Queue (Kafka)**
-   - Event-driven architecture
-   - Decouple services
-   - Replay events for disaster recovery
-   
-3. **Self-Hosted LLM**
-   - Deploy Llama 3 or Mistral on GPU instances
-   - Reduce per-request costs
-   - Full control over latency
-   
-4. **Vector Database Scaling**
-   - Weaviate or Pinecone for production vector search
-   - Distributed indexing
-   - Sub-100ms queries at scale
-   
-5. **Observability Platform**
-   - Datadog or New Relic
-   - Distributed tracing
-   - Real-time anomaly detection
-   - Capacity planning
-
-**Estimated Cost:** $50,000-100,000/month
-
----
-
-### Technology Evolution Roadmap
-
-**Phase 1: Current (Months 0-3)**
-- Monolithic Django app
-- PostgreSQL single instance
-- LangChain with Gemini API
-- Docker Compose deployment
-
-**Phase 2: Enhanced (Months 3-6)**
-- Add caching layer
-- Database read replicas
-- Monitoring and alerting
-- CI/CD pipeline
-
-**Phase 3: Distributed (Months 6-12)**
-- Microservices extraction
-- Kubernetes deployment
-- Multi-region setup
-- Advanced AI features
-
-**Phase 4: Enterprise (Months 12+)**
-- Global CDN
-- Self-hosted LLM
-- Blockchain integration
-- Mobile apps
-
----
-
 ## 📊 Performance Metrics
 
 ### Current Performance
@@ -1847,63 +1449,3 @@ Farmer → Supplier → Distributor → Customer
 | API Success Rate | 98% | 99.9% |
 | WebSocket Connections | 100 | 10,000+ |
 
----
-
-## 📦 Dependencies
-
-### Backend Requirements (`requirements.txt`)
-
-```txt
-# Core Framework
-Django==5.2.7
-djangorestframework==3.15.2
-
-# Authentication
-djoser==2.3.0
-
-# WebSocket Support
-channels==4.2.0
-channels-redis==4.2.1
-daphne==4.1.2
-
-# AI/ML Stack
-langchain==0.3.13
-langchain-google-genai==2.0.9
-chromadb==0.6.2
-google-generativeai==0.8.3
-
-# Database & Caching
-psycopg2-binary==2.9.10
-redis==5.2.1
-
-# Background Jobs
-apscheduler==3.11.0
-django-apscheduler==0.7.0
-
-# Image Generation
-runware==0.5.2
-
-# Utilities
-python-dotenv==1.0.1
-```
-
-### Frontend Dependencies (`package.json`)
-
-```json
-{
-  "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "axios": "^1.7.7",
-    "react-markdown": "^9.0.1"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.3",
-    "vite": "^5.4.10",
-    "tailwindcss": "^3.4.15",
-    "daisyui": "^4.12.14",
-    "postcss": "^8.4.49",
-    "autoprefixer": "^10.4.20"
-  }
-}
-```
