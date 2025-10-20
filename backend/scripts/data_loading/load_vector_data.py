@@ -9,7 +9,7 @@ load_dotenv()
 DATA_DIR = os.path.join(os.path.dirname(__file__), '..','..', 'data')
 KNOWLEDGE_FILE = os.path.join(DATA_DIR, 'chipchip_knowledge.json')
 CHROMA_HOST = "localhost"
-CHROMA_PORT = 8000
+CHROMA_PORT = 8001
 COLLECTION_NAME = "chipchip_knowledge"
 
 try:

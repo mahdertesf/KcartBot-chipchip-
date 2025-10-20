@@ -1,35 +1,62 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState, useEffect } from 'react';
+import { AuthProvider, useAuth } from './context/AuthContext';
+import AuthModal from './components/AuthModal';
+import ChatInterface from './components/ChatInterface';
+import './App.css';
 
-function App() {
-  const [count, setCount] = useState(0)
+function AppContent() {
+  const [authModalOpen, setAuthModalOpen] = useState(false);
+  const { user, logout, isAuthenticated, loading } = useAuth();
+
+  // Listen for auth modal open event from ChatInterface
+  useEffect(() => {
+    const handleOpenAuthModal = () => setAuthModalOpen(true);
+    window.addEventListener('openAuthModal', handleOpenAuthModal);
+    return () => window.removeEventListener('openAuthModal', handleOpenAuthModal);
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center h-screen">
+        <span className="loading loading-spinner loading-lg"></span>
+      </div>
+    );
+  }
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="h-screen flex flex-col">
+      {/* Main Chat Area */}
+      <div className="flex-1 overflow-hidden">
+        <ChatInterface />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+
+      {/* Auth Modal */}
+      <AuthModal
+        isOpen={authModalOpen}
+        onClose={() => setAuthModalOpen(false)}
+      />
+
+      {/* Footer */}
+      <footer className="footer footer-center p-4 bg-red-600 text-white">
+        <aside>
+          <div className="flex items-center justify-center gap-2 mb-2">
+            <img src="/chipchiplogo.png" alt="ChipChip Logo" className="h-6 w-auto" />
+          </div>
+          <p>
+            KcartBot - Powered by AI | Built with ❤️ for Ethiopian Agriculture
+          </p>
+        </aside>
+      </footer>
+    </div>
+  );
 }
 
-export default App
+function App() {
+  return (
+    <AuthProvider>
+      <AppContent />
+    </AuthProvider>
+  );
+}
+
+export default App;
