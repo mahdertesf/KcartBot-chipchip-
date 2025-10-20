@@ -28,7 +28,6 @@ An AI-powered marketplace assistant powered by LangChain, Google Gemini, and RAG
 - [Setup Instructions](#-setup-instructions)
 - [Usage Guide (Testing Script)](#-usage-guide-testing-script)
 - [Architectural Decisions](#-architectural-decisions)
-- [Performance Metrics](#-performance-metrics)
 
 ---
 
@@ -39,7 +38,7 @@ KcartBot is an **AI-powered marketplace assistant** that revolutionizes how user
 - **LangChain** for intelligent agent orchestration
 - **Google Gemini 2.5 Flash** for natural language understanding and translation
 - **ChromaDB** for knowledge retrieval (RAG system)
-- **PostgreSQL** for secure transactional data
+- **SQLite/PostgreSQL** for secure transactional data (SQLite for development, PostgreSQL for production)
 - **Redis** for real-time WebSocket communication
 
 The intelligent assistant serves multiple user roles:
@@ -71,10 +70,6 @@ The intelligent assistant serves multiple user roles:
 </table>
 
 </div>
-
-### Why KcartBot?
-
-Traditional e-commerce interfaces can be complex, especially for users with varying levels of digital literacy. KcartBot makes agricultural commerce accessible through natural conversation in both **English** and **Amharic** (Fidel and Latin scripts), removing barriers and empowering users to participate in the digital marketplace.
 
 ---
 
@@ -509,7 +504,8 @@ Automatic language detection and translation for English and Amharic (both Fidel
 
 | Service | Purpose |
 |---------|---------|
-| PostgreSQL | Relational database for transactional data |
+| SQLite | Development database (default) |
+| PostgreSQL | Production database for transactional data |
 | Redis | Channel layer for WebSocket, caching |
 | ChromaDB | Vector database for RAG system |
 | Google Gemini | LLM, embeddings, translation |
@@ -729,14 +725,49 @@ Create a `.env` file in the `backend/` directory:
 # backend/.env
 GOOGLE_API_KEY=your_google_gemini_api_key_here
 RUNWARE_API_KEY=your_runware_api_key_here
+```
 
-# Optional: Database credentials (uses defaults if not set)
+### Step 3: Database Configuration
+
+**For Development & Testing:**
+- The project uses **SQLite** by default (no setup required)
+- Database file: `backend/db.sqlite3`
+- Automatically created when you run migrations
+
+**For Production:**
+- Switch to **PostgreSQL** for better performance and scalability
+- Update `backend/backend/settings.py`:
+
+```python
+# Change from SQLite:
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+
+# To PostgreSQL:
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.getenv('POSTGRES_DB', 'kcart'),
+        'USER': os.getenv('POSTGRES_USER', 'postgres'),
+        'PASSWORD': os.getenv('POSTGRES_PASSWORD', 'postgres'),
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
+```
+
+- Add credentials to your `.env` file:
+```bash
 POSTGRES_DB=kcart
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres
 ```
 
-### Step 3: Start Docker Services
+### Step 4: Start Docker Services (Required for Production)
 
 ```bash
 # Start PostgreSQL, Redis, and ChromaDB
@@ -751,7 +782,9 @@ docker ps
 # - kcart_chromadb (port 8001)
 ```
 
-### Step 4: Set Up Backend
+**Note:** Redis and ChromaDB are required for both development and production.
+
+### Step 5: Set Up Backend
 
 ```bash
 cd backend
@@ -777,7 +810,7 @@ python scripts/data_loading/load_vector_data.py
 python manage.py createsuperuser
 ```
 
-### Step 5: Set Up Frontend
+### Step 6: Set Up Frontend
 
 ```bash
 cd frontend
@@ -786,7 +819,7 @@ cd frontend
 npm install
 ```
 
-### Step 6: Start the Application
+### Step 7: Start the Application
 
 Open two terminal windows:
 
@@ -807,7 +840,7 @@ npm run dev
 
 Frontend will be available at `http://localhost:5173`
 
-### Step 7: Access the Application
+### Step 8: Access the Application
 
 Open your browser and navigate to `http://localhost:5173`
 
@@ -1426,26 +1459,4 @@ python manage.py check_expiring_stock --days=7
 **Scalability Note:**
 For production at scale, would migrate to Celery or cloud-based scheduler (AWS EventBridge, Google Cloud Scheduler)
 
-## 📊 Performance Metrics
-
-### Current Performance
-
-| Metric | Value | Notes |
-|--------|-------|-------|
-| **Average Response Time** | 4-7 seconds | Includes LLM processing |
-| **RAG Query Time** | 300-500ms | Vector similarity search |
-| **Database Query Time** | 50-200ms | PostgreSQL queries |
-| **Translation Time** | 800ms | Per language detection/translation |
-| **WebSocket Latency** | <50ms | Real-time notifications |
-| **Concurrent Users** | 100+ | Single server capacity |
-| **Uptime** | 99.5%+ | With health checks |
-
-### Optimization Targets
-
-| Metric | Current | Target |
-|--------|---------|--------|
-| Response Time | 4-7s | <3s |
-| RAG Query | 300-500ms | <200ms |
-| API Success Rate | 98% | 99.9% |
-| WebSocket Connections | 100 | 10,000+ |
-
+---
