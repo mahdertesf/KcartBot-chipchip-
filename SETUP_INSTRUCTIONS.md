@@ -1,16 +1,5 @@
 # KcartBot Setup Instructions
 
-## Dependency Fix
-
-The dependency issues with ChromaDB and NumPy 2.0 have been resolved.
-
-**Fixed versions:**
-- NumPy: 2.3.4 → 1.26.4
-- ChromaDB: 1.2.0 → 0.4.24  
-- LangChain: 0.3.27 → 0.2.16
-- Docker: Updated to `chromadb/chroma:0.4.24`
-
----
 
 ## Setup Steps
 
