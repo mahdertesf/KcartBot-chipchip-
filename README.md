@@ -704,151 +704,142 @@ KcartBot-chipchip-/
 
 ### Prerequisites
 
-- **Python** 3.10 or higher
+- **Python** 3.11 or 3.12 (not 3.13)
 - **Node.js** 18 or higher
 - **Docker** and Docker Compose
-- **Google Gemini API Key** ([Get one here](https://makersuite.google.com/app/apikey))
-- **Runware API Key** (Free - [Get one here](https://runware.ai/))
+- **Google Gemini API Key** - [Get it here](https://makersuite.google.com/app/apikey)
+- **Runware API Key** (Free) - [Get it here](https://runware.ai/)
 
-### Step 1: Clone the Repository
+**Make sure you are inside KcartBot-chipchip- directory**
 
-```bash
-git clone https://github.com/your-org/KcartBot-chipchip-.git
-cd KcartBot-chipchip-
-```
-
-### Step 2: Set Up Environment Variables
-
-Create a `.env` file in the `backend/` directory:
+### Step 1: Python Environment Setup
 
 ```bash
-# backend/.env
-GOOGLE_API_KEY=your_google_gemini_api_key_here
-RUNWARE_API_KEY=your_runware_api_key_here
+# 1. Deactivate any active virtual environment
+deactivate 2>/dev/null || true
+
+# 2. Check if you have Python 3.12 (Python 3.11 also works)
+python3.12 --version
+
+# If not found, install Python 3.12:
+# macOS:
+brew install python@3.12
+
+# 3. Create virtual environment with Python 3.12
+cd backend
+rm -rf venv
+python3.12 -m venv venv
+source venv/bin/activate
+pip install --upgrade pip
+
+# 4. Install dependencies
+pip install -r requirements.txt
 ```
 
-### Step 3: Database Configuration
-
-**For Development & Testing:**
-- The project uses **SQLite** by default (no setup required)
-- Database file: `backend/db.sqlite3`
-- Automatically created when you run migrations
-
-**For Production:**
-- Switch to **PostgreSQL** for better performance and scalability
-- Update `backend/backend/settings.py`:
-
-```python
-# Change from SQLite:
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-
-# To PostgreSQL:
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('POSTGRES_DB', 'kcart'),
-        'USER': os.getenv('POSTGRES_USER', 'postgres'),
-        'PASSWORD': os.getenv('POSTGRES_PASSWORD', 'postgres'),
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
-```
-
-- Add credentials to your `.env` file:
-```bash
-POSTGRES_DB=kcart
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres
-```
-
-### Step 4: Start Docker Services (Required for Production)
+### Step 2: Docker Services
 
 ```bash
-# Start PostgreSQL, Redis, and ChromaDB
+# 5. Start Docker services (PostgreSQL, Redis, ChromaDB)
+cd ..
+docker-compose down -v
 docker-compose up -d
 
 # Verify services are running
 docker ps
-
-# Should show:
-# - kcart_postgres (port 5432)
-# - kcart_redis (port 6379)
-# - kcart_chromadb (port 8001)
+# Should show: kcart_postgres, kcart_redis, kcart_chromadb
 ```
 
-**Note:** Redis and ChromaDB are required for both development and production.
+### Step 3: Environment Variables
 
-### Step 5: Set Up Backend
+Create a `.env` file in the `backend/` directory and add your API keys:
 
 ```bash
 cd backend
+nano .env
+```
 
-# Activate virtual environment
-# On macOS/Linux:
+Add the following (get your API keys from the links above):
+```
+GOOGLE_API_KEY=your_google_gemini_api_key_here
+RUNWARE_API_KEY=your_runware_api_key_here
+```
+
+- **Google Gemini API Key**: [https://makersuite.google.com/app/apikey](https://makersuite.google.com/app/apikey)
+- **Runware API Key (Free)**: [https://runware.ai/](https://runware.ai/)
+
+### Step 4: Database Setup
+
+```bash
+# 7. Setup database (make sure you're in backend/ with venv activated)
 source venv/bin/activate
-# On Windows:
-venv\Scripts\activate
 
-# Install dependencies
-pip install -r requirements.txt
+# Remove old SQLite database if it exists
+rm -f db.sqlite3
 
-# Run migrations
 python manage.py makemigrations
 python manage.py migrate
 
-# Load sample data (optional)
+# Load sample data (ignore timezone warnings, just wait until it finishes)
 python scripts/data_loading/load_relational_data.py
 python scripts/data_loading/load_vector_data.py
-
-# Create superuser (optional, for Django admin)
-python manage.py createsuperuser
 ```
 
-### Step 6: Set Up Frontend
+### Step 5: Start the Application
 
+Follow the following to start the app:
+
+**Terminal 1 - Start Backend:**
 ```bash
-cd frontend
-
-# Install dependencies
-npm install
-```
-
-### Step 7: Start the Application
-
-Open two terminal windows:
-
-**Terminal 1 - Backend:**
-```bash
-cd backend
-source ../Venv/bin/activate  # or ..\Venv\Scripts\activate on Windows
+# Make sure you're in backend/ directory with venv activated
 daphne -b 0.0.0.0 -p 8000 backend.asgi:application
 ```
 
-Backend will be available at `http://localhost:8000` with WebSocket support
+**Terminal 2 - Start Frontend:**
 
-**Terminal 2 - Frontend:**
+Open a new terminal and make sure you're in KcartBot-chipchip- directory:
+
 ```bash
 cd frontend
+npm install
 npm run dev
 ```
 
-Frontend will be available at `http://localhost:5173`
+**Access the app:** http://localhost:5173
 
-### Step 8: Access the Application
-
-Open your browser and navigate to `http://localhost:5173`
+Backend API available at: http://localhost:8000
 
 ---
 
 ## 📖 Usage Guide (Testing Script)
 
 This comprehensive testing script covers ALL features of KcartBot. Follow these steps to test every capability.
+
+### Important Testing Notes
+
+**⚠️ Units Matter for Language Detection:**
+- When entering prices or quantities, **always include units** (e.g., `40kg`, `50birr`, `30kilo`)
+- ❌ **Don't use:** "40" or "50" (numbers alone confuse the language detection model)
+- ✅ **Do use:** "40kg", "50 birr", "30 kilograms"
+
+**👥 Testing Multi-User Workflows:**
+- To test order notifications and real-time features, **sign up as both supplier and customer**
+- **Use different browsers** or **different Google accounts** (incognito mode works well)
+- Example: Chrome for supplier, Firefox for customer
+- This allows you to see real-time order confirmations and notifications in action
+
+**📚 Testing RAG (Knowledge Base):**
+- The RAG system uses data from [`chipchip_knowledge.json`](https://github.com/mahdertesf/KcartBot-chipchip-/blob/main/backend/data/chipchip_knowledge.json)
+- **Note:** This data is fabricated and not entirely true (for demonstration purposes)
+- To test if RAG works:
+  1. Read the [`chipchip_knowledge.json`](https://github.com/mahdertesf/KcartBot-chipchip-/blob/main/backend/data/chipchip_knowledge.json) file
+  2. Ask questions about the specific information in that file
+  3. Verify the bot retrieves and uses that information correctly
+- Example questions:
+  - "What is ChipChip?"
+  - "What services does ChipChip offer?"
+  - "What are ChipChip's delivery policies?"
+
+---
 
 ### Part 1: Testing Unauthenticated User Features (RAG & LLM Knowledge)
 
