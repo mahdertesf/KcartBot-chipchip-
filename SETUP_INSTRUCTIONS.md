@@ -15,6 +15,7 @@
 ## Setup Steps
 
 ```bash
+# Make sure you are inside KcartBot-chipchip- directory
 # 1. Deactivate any active virtual environment
 deactivate 2>/dev/null || true
 
