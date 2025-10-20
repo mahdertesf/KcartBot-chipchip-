@@ -59,12 +59,14 @@ The intelligent assistant serves multiple user roles:
 <td width="50%">
 
 ![Desktop View](./images_for_readme/website_desktop_view.png)
+
 *Desktop Interface*
 
 </td>
 <td width="50%">
 
 ![Mobile View](./images_for_readme/website_mobile_view.png)
+
 *Mobile-optimized for on-the-go access*
 
 </td>
@@ -310,6 +312,7 @@ KcartBot uses ChromaDB to store and retrieve ChipChip company knowledge, enablin
 <div align="center">
 
 ![RAG System](./images_for_readme/RAG.png)
+
 *RAG system providing accurate company information*
 
 </div>
@@ -327,9 +330,11 @@ For general agricultural questions, the LLM uses its trained knowledge without q
 <div align="center">
 
 ![LLM Knowledge](./images_for_readme/LLM's own knowledge.png)
+
 *Using LLM's knowledge for general agricultural advice*
 
 ![LLM Knowledge 2](./images_for_readme/llms's own knowledge 2 .png)
+
 *Providing Ethiopian-specific agricultural information*
 
 </div>
@@ -350,6 +355,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 <div align="center">
 
 ![Ordering by Customer](./images_for_readme/ordering. by customer.png)
+
 *Customers can search for products and compare suppliers*
 
 </div>
@@ -359,6 +365,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 <div align="center">
 
 ![Product Suggestion](./images_for_readme/product supplier suggetion by the bot to the customer ordering.png)
+
 *AI suggests best suppliers based on price and availability*
 
 </div>
@@ -368,6 +375,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 <div align="center">
 
 ![Customer Ordering](./images_for_readme/ordering by customer.png)
+
 *Seamless order creation with delivery details*
 
 </div>
@@ -377,6 +385,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 <div align="center">
 
 ![Order Confirmation](./images_for_readme/order confirmation message to customer.png)
+
 *Instant order confirmation with details*
 
 </div>
@@ -388,6 +397,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 <div align="center">
 
 ![Order Notification](./images_for_readme/order notification for supplier.png)
+
 *Suppliers receive instant order notifications via WebSocket*
 
 </div>
@@ -397,6 +407,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 <div align="center">
 
 ![Order Checking](./images_for_readme/order_checking by supplier.png)
+
 *Suppliers can view, accept, or decline orders*
 
 </div>
@@ -406,6 +417,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 <div align="center">
 
 ![Inventory Checking](./images_for_readme/inventory checking by supplier.png)
+
 *Real-time inventory status and alerts*
 
 </div>
@@ -415,6 +427,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 <div align="center">
 
 ![Price Suggestion](./images_for_readme/price suggestion by bot to supplier.png)
+
 *Data-driven pricing recommendations based on market analysis*
 
 </div>
@@ -430,6 +443,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 <div align="center">
 
 ![Adding Product](./images_for_readme/adding prodcut to inventory by supplier.png)
+
 *Guided inventory addition with pricing insights*
 
 </div>
@@ -439,6 +453,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 <div align="center">
 
 ![Image Generation](./images_for_readme/image generation by supplier'.png)
+
 *Generate professional product images using Runware AI*
 
 </div>
@@ -1896,57 +1911,3 @@ python-dotenv==1.0.1
   }
 }
 ```
-
----
-
-## 🤝 Contributing
-
-This project was developed as a demonstration of modern AI-powered full-stack application development. While it's not currently open for external contributions, the architecture and code are documented to serve as a learning resource for others building similar systems.
-
-### Key Learnings
-
-1. **LangChain Integration**: How to build production-ready AI agents
-2. **RAG Implementation**: Practical vector search for knowledge retrieval
-3. **WebSocket Architecture**: Real-time communication at scale
-4. **Multi-Language NLP**: Translation and language detection
-5. **Microservice Patterns**: Building for future scalability
-
----
-
-## 📄 License
-
-MIT License - See LICENSE file for details
-
----
-
-## 🙏 Acknowledgments
-
-Built with:
-- **Django REST Framework** - Robust API development
-- **LangChain** - AI agent orchestration
-- **Google Gemini** - State-of-the-art LLM
-- **ChromaDB** - Vector database for RAG
-- **React** - Modern UI framework
-- **Tailwind CSS** - Beautiful styling
-
-Special thanks to ChipChip for the opportunity to build this revolutionary marketplace assistant.
-
----
-
-## 📞 Contact & Support
-
-For questions, feedback, or collaboration opportunities:
-
-- **Email**: support@chipchip.et
-- **Website**: [chipchip.et](#)
-- **GitHub**: [github.com/chipchip-ethiopia](#)
-
----
-
-<div align="center">
-
-**KcartBot - Empowering Ethiopian Agriculture Through AI** 🌾🤖
-
-Made with ❤️ for Ethiopia's agricultural future
-
-</div>
