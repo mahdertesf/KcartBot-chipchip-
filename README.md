@@ -758,9 +758,6 @@ docker ps
 ```bash
 cd backend
 
-# Create virtual environment
-python -m venv venv
-
 # Activate virtual environment
 # On macOS/Linux:
 source venv/bin/activate
@@ -798,11 +795,11 @@ Open two terminal windows:
 **Terminal 1 - Backend:**
 ```bash
 cd backend
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-python manage.py runserver
+source ../Venv/bin/activate  # or ..\Venv\Scripts\activate on Windows
+daphne -b 0.0.0.0 -p 8000 backend.asgi:application
 ```
 
-Backend will be available at `http://localhost:8000`
+Backend will be available at `http://localhost:8000` with WebSocket support
 
 **Terminal 2 - Frontend:**
 ```bash
