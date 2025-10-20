@@ -1,5 +1,4 @@
 # KcartBot by ChipChip
-## AI-Powered Ethiopian Agricultural Marketplace Assistant
 
 <div align="center">
 
