@@ -1,11 +1,18 @@
 # KcartBot Setup Instructions
 
+## Prerequisites
 
-## Setup Steps
-
-**IMPORTANT: Use Python 3.11 or 3.12 (not 3.13)**
+- **Python** 3.11 or 3.12 (not 3.13)
+- **Node.js** 18 or higher
+- **Docker** and Docker Compose
+- **Google Gemini API Key** - [Get it here](https://makersuite.google.com/app/apikey)
+- **Runware API Key** (Free) - [Get it here](https://runware.ai/)
 
 **Make sure you are inside KcartBot-chipchip- directory**
+
+---
+
+## Setup Steps
 
 ```bash
 # 1. Deactivate any active virtual environment
