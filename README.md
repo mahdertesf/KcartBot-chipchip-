@@ -329,11 +329,11 @@ For general agricultural questions, the LLM uses its trained knowledge without q
 
 <div align="center">
 
-![LLM Knowledge](./images_for_readme/LLM's own knowledge.png)
+![LLM Knowledge](./images_for_readme/LLM's%20own%20knowledge.png)
 
 *Using LLM's knowledge for general agricultural advice*
 
-![LLM Knowledge 2](./images_for_readme/llms's own knowledge 2 .png)
+![LLM Knowledge 2](./images_for_readme/llms's%20own%20knowledge%202%20.png)
 
 *Providing Ethiopian-specific agricultural information*
 
@@ -354,7 +354,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 
 <div align="center">
 
-![Ordering by Customer](./images_for_readme/ordering. by customer.png)
+![Ordering by Customer](./images_for_readme/ordering.%20by%20customer.png)
 
 *Customers can search for products and compare suppliers*
 
@@ -364,7 +364,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 
 <div align="center">
 
-![Product Suggestion](./images_for_readme/product supplier suggetion by the bot to the customer ordering.png)
+![Product Suggestion](./images_for_readme/product%20supplier%20suggetion%20by%20the%20bot%20to%20the%20customer%20ordering.png)
 
 *AI suggests best suppliers based on price and availability*
 
@@ -374,7 +374,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 
 <div align="center">
 
-![Customer Ordering](./images_for_readme/ordering by customer.png)
+![Customer Ordering](./images_for_readme/ordering%20by%20customer.png)
 
 *Seamless order creation with delivery details*
 
@@ -384,7 +384,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 
 <div align="center">
 
-![Order Confirmation](./images_for_readme/order confirmation message to customer.png)
+![Order Confirmation](./images_for_readme/order%20confirmation%20message%20to%20customer.png)
 
 *Instant order confirmation with details*
 
@@ -396,7 +396,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 
 <div align="center">
 
-![Order Notification](./images_for_readme/order notification for supplier.png)
+![Order Notification](./images_for_readme/order%20notification%20for%20supplier.png)
 
 *Suppliers receive instant order notifications via WebSocket*
 
@@ -406,7 +406,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 
 <div align="center">
 
-![Order Checking](./images_for_readme/order_checking by supplier.png)
+![Order Checking](./images_for_readme/order_checking%20by%20supplier.png)
 
 *Suppliers can view, accept, or decline orders*
 
@@ -416,7 +416,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 
 <div align="center">
 
-![Inventory Checking](./images_for_readme/inventory checking by supplier.png)
+![Inventory Checking](./images_for_readme/inventory%20checking%20by%20supplier.png)
 
 *Real-time inventory status and alerts*
 
@@ -426,7 +426,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 
 <div align="center">
 
-![Price Suggestion](./images_for_readme/price suggestion by bot to supplier.png)
+![Price Suggestion](./images_for_readme/price%20suggestion%20by%20bot%20to%20supplier.png)
 
 *Data-driven pricing recommendations based on market analysis*
 
@@ -442,7 +442,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 
 <div align="center">
 
-![Adding Product](./images_for_readme/adding prodcut to inventory by supplier.png)
+![Adding Product](./images_for_readme/adding%20prodcut%20to%20inventory%20by%20supplier.png)
 
 *Guided inventory addition with pricing insights*
 
@@ -452,7 +452,7 @@ Automatic language detection and translation for English and Amharic (both Fidel
 
 <div align="center">
 
-![Image Generation](./images_for_readme/image generation by supplier'.png)
+![Image Generation](./images_for_readme/image%20generation%20by%20supplier'.png)
 
 *Generate professional product images using Runware AI*
 
@@ -840,7 +840,7 @@ This comprehensive testing script covers ALL features of KcartBot. Follow these 
 2. **Expected:** Bot uses its trained knowledge (no RAG) to provide storage tips
 3. **Verify:** Response includes practical storage advice
 
-![LLM Knowledge](./images_for_readme/LLM's own knowledge.png)
+![LLM Knowledge](./images_for_readme/LLM's%20own%20knowledge.png)
 
 #### Test 1.3: LLM's Own Knowledge - Ethiopian Agriculture
 
@@ -848,7 +848,7 @@ This comprehensive testing script covers ALL features of KcartBot. Follow these 
 2. **Expected:** Bot provides information from its training data
 3. **Verify:** Response includes Ethiopian-specific information
 
-![LLM Knowledge 2](./images_for_readme/llms's own knowledge 2 .png)
+![LLM Knowledge 2](./images_for_readme/llms's%20own%20knowledge%202%20.png)
 
 #### Test 1.4: Scope Limitation
 
@@ -888,7 +888,7 @@ This comprehensive testing script covers ALL features of KcartBot. Follow these 
    - Each supplier shows: name, supplier_id, price, quantity
 3. **Verify:** Response includes supplier details with IDs
 
-![Ordering](./images_for_readme/ordering. by customer.png)
+![Ordering](./images_for_readme/ordering.%20by%20customer.png)
 
 #### Test 2.3: Product Search with Specific Quantity
 
@@ -899,7 +899,7 @@ This comprehensive testing script covers ALL features of KcartBot. Follow these 
    - Displays prices sorted from lowest to highest
 3. **Verify:** All suppliers have at least 50kg available
 
-![Product Suggestion](./images_for_readme/product supplier suggetion by the bot to the customer ordering.png)
+![Product Suggestion](./images_for_readme/product%20supplier%20suggetion%20by%20the%20bot%20to%20the%20customer%20ordering.png)
 
 #### Test 2.4: Order Creation
 
@@ -911,7 +911,7 @@ This comprehensive testing script covers ALL features of KcartBot. Follow these 
    - Shows order confirmation with order ID
 3. **Verify:** Order confirmation includes all details
 
-![Customer Ordering](./images_for_readme/ordering by customer.png)
+![Customer Ordering](./images_for_readme/ordering%20by%20customer.png)
 
 #### Test 2.5: Order Confirmation
 
@@ -922,7 +922,7 @@ This comprehensive testing script covers ALL features of KcartBot. Follow these 
    - Delivery details confirmed
 3. **Verify:** Customer receives confirmation message
 
-![Order Confirmation](./images_for_readme/order confirmation message to customer.png)
+![Order Confirmation](./images_for_readme/order%20confirmation%20message%20to%20customer.png)
 
 ---
 
@@ -951,7 +951,7 @@ This comprehensive testing script covers ALL features of KcartBot. Follow these 
    - Suggests price reduction for expiring stock
 3. **Verify:** Inventory list with product details
 
-![Inventory Checking](./images_for_readme/inventory checking by supplier.png)
+![Inventory Checking](./images_for_readme/inventory%20checking%20by%20supplier.png)
 
 #### Test 3.3: Check Specific Product
 
@@ -972,7 +972,7 @@ This comprehensive testing script covers ALL features of KcartBot. Follow these 
    - Provides recommended price range
 3. **Verify:** Complete pricing breakdown displayed
 
-![Price Suggestion](./images_for_readme/price suggestion by bot to supplier.png)
+![Price Suggestion](./images_for_readme/price%20suggestion%20by%20bot%20to%20supplier.png)
 
 **Expected Output Structure:**
 ```
@@ -999,7 +999,7 @@ Competitor averages:
 3. **Confirm:** "Yes, proceed with the suggested price"
 4. **Expected:** Inventory created successfully
 
-![Adding Product](./images_for_readme/adding prodcut to inventory by supplier.png)
+![Adding Product](./images_for_readme/adding%20prodcut%20to%20inventory%20by%20supplier.png)
 
 #### Test 3.6: AI Image Generation (Optional)
 
@@ -1017,7 +1017,7 @@ After deciding to add product:
 7. **Type:** "Yes"
 8. **Expected:** Inventory created with image URL attached
 
-![Image Generation](./images_for_readme/image generation by supplier'.png)
+![Image Generation](./images_for_readme/image%20generation%20by%20supplier'.png)
 
 #### Test 3.7: View Orders
 
@@ -1029,7 +1029,7 @@ After deciding to add product:
    - Shows order details: customer, products, quantities, total
 3. **Verify:** Orders listed by status
 
-![Order Checking](./images_for_readme/order_checking by supplier.png)
+![Order Checking](./images_for_readme/order_checking%20by%20supplier.png)
 
 #### Test 3.8: Filter Orders by Status
 
@@ -1048,7 +1048,7 @@ After deciding to add product:
    - Notification shows: order ID, customer, items, total
 5. **Verify:** Real-time notification received
 
-![Order Notification](./images_for_readme/order notification for supplier.png)
+![Order Notification](./images_for_readme/order%20notification%20for%20supplier.png)
 
 #### Test 3.10: Accept Order
 
