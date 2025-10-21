@@ -46,16 +46,15 @@ docker-compose up -d
 # 6. Setup environment (add your API keys)
 cd backend
 
-Add the following to .env
-(get your API keys from the links above):
+# Create .env file with your API keys (get them from the links above)
+nano .env
 
-GOOGLE_API_KEY='your_google_gemini_api_key_here'
-RUNWARE_API_KEY='your_runware_api_key_here'
-
+# Add these lines (replace with your actual API keys):
+# GOOGLE_API_KEY='your_google_gemini_api_key_here'
+# RUNWARE_API_KEY='your_runware_api_key_here'
+# Save and exit (Ctrl+O, Enter, Ctrl+X)
 
 # 7. Setup database
-source venv/bin/activate
-
 # Remove old SQLite database if it exists
 rm -f db.sqlite3
 
