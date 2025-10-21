@@ -44,8 +44,6 @@ docker-compose down -v
 docker-compose up -d
 
 # 6. Setup environment (add your API keys)
-cd backend
-
 # Create .env file with your API keys (get them from the links above)
 nano .env
 
