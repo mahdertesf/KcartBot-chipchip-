@@ -48,10 +48,10 @@ cd backend
 
 Add the following to .env
 (get your API keys from the links above):
-```
+
 GOOGLE_API_KEY=your_google_gemini_api_key_here
 RUNWARE_API_KEY=your_runware_api_key_here
-```
+
 
 # 7. Setup database
 source venv/bin/activate
